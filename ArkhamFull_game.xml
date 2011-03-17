@@ -82,24 +82,26 @@
       <size width="60" height="60">
         <location_display type="score" show_empty="0">
           <location_in_action action="set_side" args="1">
-            <corner_coord board="1" x="673" y="325">
-              <location>location_player1_monster</location>
-            </corner_coord>
-          </location_in_action>
-          <location_in_action action="set_side" args="2">
-            <corner_coord board="2" x="289" y="35">
-              <location>location_player2_monster</location>
-            </corner_coord>
-          </location_in_action>
-          <location_in_action action="set_side" args="4">
-            <corner_coord board="3" x="325" y="289">
-              <location>location_player3_monster</location>
-            </corner_coord>
-          </location_in_action>
-          <location_in_action action="set_side" args="3">
-            <corner_coord board="4" x="35" y="673">
-              <location>location_player4_monster</location>
-            </corner_coord>
+            <location_in_action action="set_rotation" args="0">
+              <corner_coord board="1" x="673" y="325">
+                <location>location_player1_monster</location>
+              </corner_coord>
+            </location_in_action>
+            <location_in_action action="set_rotation" args="180">
+              <corner_coord board="2" x="289" y="35">
+                <location>location_player2_monster</location>
+              </corner_coord>
+            </location_in_action>
+            <location_in_action action="set_rotation" args="-90">
+              <corner_coord board="3" x="325" y="289">
+                <location>location_player3_monster</location>
+              </corner_coord>
+            </location_in_action>
+            <location_in_action action="set_rotation" args="90">
+              <corner_coord board="4" x="35" y="673">
+                <location>location_player4_monster</location>
+              </corner_coord>
+            </location_in_action>
           </location_in_action>
         </location_display>
       </size>
@@ -737,16 +739,18 @@
   <size width="60" height="60">
     <location_type type="stack">
       <location_in_action action="set_side" args="0">
-        <valid_types types="monster,monsterspecial">
-          <corner_coord board="0" x="83" y="670">
-            <location>location_main_monster</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="monsterspecial">
-          <corner_coord board="0" x="148" y="670">
-            <location>location_main_monsterspecial</location>
-          </corner_coord>
-        </valid_types>
+        <location_in_action action="set_rotation" args="0">
+          <valid_types types="monster,monsterspecial">
+            <corner_coord board="0" x="83" y="670">
+              <location>location_main_monster</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="monsterspecial">
+            <corner_coord board="0" x="148" y="670">
+              <location>location_main_monsterspecial</location>
+            </corner_coord>
+          </valid_types>
+        </location_in_action>
       </location_in_action>
     </location_type>
   </size>
@@ -754,16 +758,10 @@
   <!-- Board discard location -->
   <size width="77" height="77">
     <location_in_action action="set_side" args="0">
-      <location_type type="stack">
-        <valid_types types="common,unique,spell,ally,skill,injury,madness,bankloan,blessing,curse,retainer,silvertwilight,deputy,gate,monster,monsterspecial">
-          <corner_coord board="0" x="493" y="670">
-            <location>location_main_discard</location>
-          </corner_coord>
-        </valid_types>
-      </location_type>
+      <location_in_action action="set_rotation" args="0"><location_type type="stack"><valid_types types="common,unique,spell,ally,skill,injury,madness,bankloan,blessing,curse,retainer,silvertwilight,deputy,gate,monster,monsterspecial"><corner_coord board="0" x="493" y="670"><location>location_main_discard</location></corner_coord></valid_types></location_type></location_in_action>
     </location_in_action>
+    <!-- End Board discard location -->
   </size>
-  <!-- End Board discard location -->
   <!-- Board monster back locations -->
   <size width="110" height="110">
     <location_type type="cell">
@@ -6705,380 +6703,384 @@
       <!-- Special Monster/AO tokens -->
       <piece_type type="monsterspecial">
         <initial_location name="location_main_monsterspecial">
-          <single_tap action="move_piece" args="location_monster_1,COABack1">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_ChildOfAbhoth_1.png,ArkhamFull_Image_Monster_ChildOfAbhothBack1_1.png,ArkhamFull_Image_Monster_ChildOfAbhothBack1_2.png,ArkhamFull_Image_Monster_ChildOfAbhothBack1_4.png,ArkhamFull_Image_Monster_ChildOfAbhothBack1.png">
-                <piece>coa1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,COABack2">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_ChildOfAbhoth_1.png,ArkhamFull_Image_Monster_ChildOfAbhothBack2_1.png,ArkhamFull_Image_Monster_ChildOfAbhothBack2_2.png,ArkhamFull_Image_Monster_ChildOfAbhothBack2_4.png,ArkhamFull_Image_Monster_ChildOfAbhothBack2.png">
-                <piece>coa2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,COABack3">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_ChildOfAbhoth_1.png,ArkhamFull_Image_Monster_ChildOfAbhothBack3_1.png,ArkhamFull_Image_Monster_ChildOfAbhothBack3_2.png,ArkhamFull_Image_Monster_ChildOfAbhothBack3_4.png,ArkhamFull_Image_Monster_ChildOfAbhothBack3.png">
-                <piece>coa3</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack1">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack1_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack1_2.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack1_4.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack1.png">
-                <piece>ServantOfGlaaki1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack2">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack2_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack2_2.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack2_4.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack2.png">
-                <piece>ServantOfGlaaki2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack3">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack3_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack3_2.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack3_4.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack3.png">
-                <piece>ServantOfGlaaki3</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack4">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack4_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack4_2.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack4_4.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack4.png">
-                <piece>ServantOfGlaaki4</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack5">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack5_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack5_2.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack5_4.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack5.png">
-                <piece>ServantOfGlaaki5</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,GodOfTheBloodyTongueBack">
-            <points value="4">
-              <sides paths="ArkhamFull_Image_Monster_GodOfTheBloodyTongue_1.png,ArkhamFull_Image_Monster_GodOfTheBloodyTongueBack_1.png,ArkhamFull_Image_Monster_GodOfTheBloodyTongueBack_2.png,ArkhamFull_Image_Monster_GodOfTheBloodyTongueBack_4.png,ArkhamFull_Image_Monster_GodOfTheBloodyTongueBack.png">
-                <piece>GodOfTheBloodyTongue1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,HaunterOfTheDarkBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_HaunterOfTheDark_1.png,ArkhamFull_Image_Monster_HaunterOfTheDarkBack_1.png,ArkhamFull_Image_Monster_HaunterOfTheDarkBack_2.png,ArkhamFull_Image_Monster_HaunterOfTheDarkBack_4.png,ArkhamFull_Image_Monster_HaunterOfTheDarkBack.png">
-                <piece>HaunterOfTheDark1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,TheBeastBack">
-            <points value="4">
-              <sides paths="ArkhamFull_Image_Monster_TheBeast_1.png,ArkhamFull_Image_Monster_TheBeastBack_1.png,ArkhamFull_Image_Monster_TheBeastBack_2.png,ArkhamFull_Image_Monster_TheBeastBack_4.png,ArkhamFull_Image_Monster_TheBeastBack.png">
-                <piece>TheBeast1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,TheBlackManBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_TheBlackMan_1.png,ArkhamFull_Image_Monster_TheBlackManBack_1.png,ArkhamFull_Image_Monster_TheBlackManBack_2.png,ArkhamFull_Image_Monster_TheBlackManBack_4.png,ArkhamFull_Image_Monster_TheBlackManBack.png">
-                <piece>TheBlackMan1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,TheBloatedWomanBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_TheBloatedWoman_1.png,ArkhamFull_Image_Monster_TheBloatedWomanBack_1.png,ArkhamFull_Image_Monster_TheBloatedWomanBack_2.png,ArkhamFull_Image_Monster_TheBloatedWomanBack_4.png,ArkhamFull_Image_Monster_TheBloatedWomanBack.png">
-                <piece>TheBloatedWoman1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,TheDarkPharoahBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_TheDarkPharoah_1.png,ArkhamFull_Image_Monster_TheDarkPharoahBack_1.png,ArkhamFull_Image_Monster_TheDarkPharoahBack_2.png,ArkhamFull_Image_Monster_TheDarkPharoahBack_4.png,ArkhamFull_Image_Monster_TheDarkPharoahBack.png">
-                <piece>TheDarkPharoah1</piece>
-              </sides>
-            </points>
-          </single_tap>
+          <initial_rotation value="0">
+            <single_tap action="move_piece" args="location_monster_1,COABack1">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_ChildOfAbhoth_1.png,ArkhamFull_Image_Monster_ChildOfAbhothBack1_1.png">
+                  <piece>coa1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,COABack2">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_ChildOfAbhoth_1.png,ArkhamFull_Image_Monster_ChildOfAbhothBack2_1.png">
+                  <piece>coa2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,COABack3">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_ChildOfAbhoth_1.png,ArkhamFull_Image_Monster_ChildOfAbhothBack3_1.png">
+                  <piece>coa3</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack1">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack1_1.png">
+                  <piece>ServantOfGlaaki1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack2">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack2_1.png">
+                  <piece>ServantOfGlaaki2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack3">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack3_1.png">
+                  <piece>ServantOfGlaaki3</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack4">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack4_1.png">
+                  <piece>ServantOfGlaaki4</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ServantOfGlaakiBack5">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_ServantOfGlaaki_1.png,ArkhamFull_Image_Monster_ServantOfGlaakiBack5_1.png">
+                  <piece>ServantOfGlaaki5</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,GodOfTheBloodyTongueBack">
+              <points value="4">
+                <sides paths="ArkhamFull_Image_Monster_GodOfTheBloodyTongue_1.png,ArkhamFull_Image_Monster_GodOfTheBloodyTongueBack_1.png">
+                  <piece>GodOfTheBloodyTongue1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,HaunterOfTheDarkBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_HaunterOfTheDark_1.png,ArkhamFull_Image_Monster_HaunterOfTheDarkBack_1.png">
+                  <piece>HaunterOfTheDark1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,TheBeastBack">
+              <points value="4">
+                <sides paths="ArkhamFull_Image_Monster_TheBeast_1.png,ArkhamFull_Image_Monster_TheBeastBack_1.png">
+                  <piece>TheBeast1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,TheBlackManBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_TheBlackMan_1.png,ArkhamFull_Image_Monster_TheBlackManBack_1.png">
+                  <piece>TheBlackMan1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,TheBloatedWomanBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_TheBloatedWoman_1.png,ArkhamFull_Image_Monster_TheBloatedWomanBack_1.png">
+                  <piece>TheBloatedWoman1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,TheDarkPharoahBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_TheDarkPharoah_1.png,ArkhamFull_Image_Monster_TheDarkPharoahBack_1.png">
+                  <piece>TheDarkPharoah1</piece>
+                </sides>
+              </points>
+            </single_tap>
+          </initial_rotation>
         </initial_location>
       </piece_type>
       <!-- End Special Monster/AO tokens -->
       <!-- Normal Monster tokens -->
       <piece_type type="monster">
         <initial_location name="location_main_monster">
-          <single_tap action="move_piece" args="location_monster_1,ByakheeBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_Byakhee_1.png,ArkhamFull_Image_Monster_ByakheeBack_1.png,ArkhamFull_Image_Monster_ByakheeBack_2.png,ArkhamFull_Image_Monster_ByakheeBack_4.png,ArkhamFull_Image_Monster_ByakheeBack.png">
-                <piece>byakhee1</piece>
-                <piece>byakhee2</piece>
-                <piece>byakhee3</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ChthonianBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_Chthonian_1.png,ArkhamFull_Image_Monster_ChthonianBack_1.png,ArkhamFull_Image_Monster_ChthonianBack_2.png,ArkhamFull_Image_Monster_ChthonianBack_4.png,ArkhamFull_Image_Monster_ChthonianBack.png">
-                <piece>Chthonian1</piece>
-                <piece>Chthonian2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ColourOutOfSpaceBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_ColourOutOfSpace_1.png,ArkhamFull_Image_Monster_ColourOutOfSpaceBack_1.png,ArkhamFull_Image_Monster_ColourOutOfSpaceBack_2.png,ArkhamFull_Image_Monster_ColourOutOfSpaceBack_4.png,ArkhamFull_Image_Monster_ColourOutOfSpaceBack.png">
-                <piece>ColourOutOfSpace1</piece>
-                <piece>ColourOutOfSpace2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,CultistBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_Cultist_1.png,ArkhamFull_Image_Monster_CultistBack_1.png,ArkhamFull_Image_Monster_CultistBack_2.png,ArkhamFull_Image_Monster_CultistBack_4.png,ArkhamFull_Image_Monster_CultistBack.png">
-                <piece>Cultist1</piece>
-                <piece>Cultist2</piece>
-                <piece>Cultist3</piece>
-                <piece>Cultist4</piece>
-                <piece>Cultist5</piece>
-                <piece>Cultist6</piece>
-                <piece>Cultist7</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,DarkYoungBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_DarkYoung_1.png,ArkhamFull_Image_Monster_DarkYoungBack_1.png,ArkhamFull_Image_Monster_DarkYoungBack_2.png,ArkhamFull_Image_Monster_DarkYoungBack_4.png,ArkhamFull_Image_Monster_DarkYoungBack.png">
-                <piece>DarkYoung1</piece>
-                <piece>DarkYoung2</piece>
-                <piece>DarkYoung3</piece>
-                <piece>DarkYoung4</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,DholeBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_Dhole_1.png,ArkhamFull_Image_Monster_DholeBack_1.png,ArkhamFull_Image_Monster_DholeBack_2.png,ArkhamFull_Image_Monster_DholeBack_4.png,ArkhamFull_Image_Monster_DholeBack.png">
-                <piece>Dhole1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,DimensionalShamblerBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_DimensionalShambler_1.png,ArkhamFull_Image_Monster_DimensionalShamblerBack_1.png,ArkhamFull_Image_Monster_DimensionalShamblerBack_2.png,ArkhamFull_Image_Monster_DimensionalShamblerBack_4.png,ArkhamFull_Image_Monster_DimensionalShamblerBack.png">
-                <piece>DimensionalShambler1</piece>
-                <piece>DimensionalShambler2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ElderThingBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_ElderThing_1.png,ArkhamFull_Image_Monster_ElderThingBack_1.png,ArkhamFull_Image_Monster_ElderThingBack_2.png,ArkhamFull_Image_Monster_ElderThingBack_4.png,ArkhamFull_Image_Monster_ElderThingBack.png">
-                <piece>ElderThing1</piece>
-                <piece>ElderThing2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,FireVampireBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_FireVampire_1.png,ArkhamFull_Image_Monster_FireVampireBack_1.png,ArkhamFull_Image_Monster_FireVampireBack_2.png,ArkhamFull_Image_Monster_FireVampireBack_4.png,ArkhamFull_Image_Monster_FireVampireBack.png">
-                <piece>FireVampire1</piece>
-                <piece>FireVampire2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,FlyingPolypBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_FlyingPolyp_1.png,ArkhamFull_Image_Monster_FlyingPolypBack_1.png,ArkhamFull_Image_Monster_FlyingPolypBack_2.png,ArkhamFull_Image_Monster_FlyingPolypBack_4.png,ArkhamFull_Image_Monster_FlyingPolypBack.png">
-                <piece>FlyingPolyp1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,FormlessSpawnBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_FormlessSpawn_1.png,ArkhamFull_Image_Monster_FormlessSpawnBack_1.png,ArkhamFull_Image_Monster_FormlessSpawnBack_2.png,ArkhamFull_Image_Monster_FormlessSpawnBack_4.png,ArkhamFull_Image_Monster_FormlessSpawnBack.png">
-                <piece>FormlessSpawn1</piece>
-                <piece>FormlessSpawn2</piece>
-                <piece>FormlessSpawn3</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,GhostBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_Ghost_1.png,ArkhamFull_Image_Monster_GhostBack_1.png,ArkhamFull_Image_Monster_GhostBack_2.png,ArkhamFull_Image_Monster_GhostBack_4.png,ArkhamFull_Image_Monster_GhostBack.png">
-                <piece>Ghost1</piece>
-                <piece>Ghost2</piece>
-                <piece>Ghost3</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,GhoulBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_Ghoul_1.png,ArkhamFull_Image_Monster_GhoulBack_1.png,ArkhamFull_Image_Monster_GhoulBack_2.png,ArkhamFull_Image_Monster_GhoulBack_4.png,ArkhamFull_Image_Monster_GhoulBack.png">
-                <piece>Ghoul1</piece>
-                <piece>Ghoul2</piece>
-                <piece>Ghoul3</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,GoatSpawnBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_GoatSpawn_1.png,ArkhamFull_Image_Monster_GoatSpawnBack_1.png,ArkhamFull_Image_Monster_GoatSpawnBack_2.png,ArkhamFull_Image_Monster_GoatSpawnBack_4.png,ArkhamFull_Image_Monster_GoatSpawnBack.png">
-                <piece>GoatSpawn1</piece>
-                <piece>GoatSpawn2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,GugBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_Gug_1.png,ArkhamFull_Image_Monster_GugBack_1.png,ArkhamFull_Image_Monster_GugBack_2.png,ArkhamFull_Image_Monster_GugBack_4.png,ArkhamFull_Image_Monster_GugBack.png">
-                <piece>Gug1</piece>
-                <piece>Gug2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,HighPriestBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_HighPriest_1.png,ArkhamFull_Image_Monster_HighPriestBack_1.png,ArkhamFull_Image_Monster_HighPriestBack_2.png,ArkhamFull_Image_Monster_HighPriestBack_4.png,ArkhamFull_Image_Monster_HighPriestBack.png">
-                <piece>HighPriest1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,HoundOfTindalosBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_HoundOfTindalos_1.png,ArkhamFull_Image_Monster_HoundOfTindalosBack_1.png,ArkhamFull_Image_Monster_HoundOfTindalosBack_2.png,ArkhamFull_Image_Monster_HoundOfTindalosBack_4.png,ArkhamFull_Image_Monster_HoundOfTindalosBack.png">
-                <piece>HoundOfTindalos1</piece>
-                <piece>HoundOfTindalos2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,HuntingHorrorBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_HuntingHorror_1.png,ArkhamFull_Image_Monster_HuntingHorrorBack_1.png,ArkhamFull_Image_Monster_HuntingHorrorBack_2.png,ArkhamFull_Image_Monster_HuntingHorrorBack_4.png,ArkhamFull_Image_Monster_HuntingHorrorBack.png">
-                <piece>HuntingHorror1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ManiacBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_Maniac_1.png,ArkhamFull_Image_Monster_ManiacBack_1.png,ArkhamFull_Image_Monster_ManiacBack_2.png,ArkhamFull_Image_Monster_ManiacBack_4.png,ArkhamFull_Image_Monster_ManiacBack.png">
-                <piece>Maniac1</piece>
-                <piece>Maniac2</piece>
-                <piece>Maniac3</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,Mi-GoBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_Mi-Go_1.png,ArkhamFull_Image_Monster_Mi-GoBack_1.png,ArkhamFull_Image_Monster_Mi-GoBack_2.png,ArkhamFull_Image_Monster_Mi-GoBack_4.png,ArkhamFull_Image_Monster_Mi-GoBack.png">
-                <piece>Mi-Go1</piece>
-                <piece>Mi-Go2</piece>
-                <piece>Mi-Go3</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,MummyBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_Mummy_1.png,ArkhamFull_Image_Monster_MummyBack_1.png,ArkhamFull_Image_Monster_MummyBack_2.png,ArkhamFull_Image_Monster_MummyBack_4.png,ArkhamFull_Image_Monster_MummyBack.png">
-                <piece>Mummy1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,NightgauntBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_Nightgaunt_1.png,ArkhamFull_Image_Monster_NightgauntBack_1.png,ArkhamFull_Image_Monster_NightgauntBack_2.png,ArkhamFull_Image_Monster_NightgauntBack_4.png,ArkhamFull_Image_Monster_NightgauntBack.png">
-                <piece>Nightgaunt1</piece>
-                <piece>Nightgaunt2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,RatThingBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_RatThing_1.png,ArkhamFull_Image_Monster_RatThingBack_1.png,ArkhamFull_Image_Monster_RatThingBack_2.png,ArkhamFull_Image_Monster_RatThingBack_4.png,ArkhamFull_Image_Monster_RatThingBack.png">
-                <piece>RatThing1</piece>
-                <piece>RatThing2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ShoggothBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_Shoggoth_1.png,ArkhamFull_Image_Monster_ShoggothBack_1.png,ArkhamFull_Image_Monster_ShoggothBack_2.png,ArkhamFull_Image_Monster_ShoggothBack_4.png,ArkhamFull_Image_Monster_ShoggothBack.png">
-                <piece>Shoggoth1</piece>
-                <piece>Shoggoth2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,SpectralHunterBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_SpectralHunter_1.png,ArkhamFull_Image_Monster_SpectralHunterBack_1.png,ArkhamFull_Image_Monster_SpectralHunterBack_2.png,ArkhamFull_Image_Monster_SpectralHunterBack_4.png,ArkhamFull_Image_Monster_SpectralHunterBack.png">
-                <piece>SpectralHunter1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,StarSpawnBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_StarSpawn_1.png,ArkhamFull_Image_Monster_StarSpawnBack_1.png,ArkhamFull_Image_Monster_StarSpawnBack_2.png,ArkhamFull_Image_Monster_StarSpawnBack_4.png,ArkhamFull_Image_Monster_StarSpawnBack.png">
-                <piece>StarSpawn1</piece>
-                <piece>StarSpawn2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,StarVampireBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_StarVampire_1.png,ArkhamFull_Image_Monster_StarVampireBack_1.png,ArkhamFull_Image_Monster_StarVampireBack_2.png,ArkhamFull_Image_Monster_StarVampireBack_4.png,ArkhamFull_Image_Monster_StarVampireBack.png">
-                <piece>StarVampire1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,TchoTchoBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_TchoTcho_1.png,ArkhamFull_Image_Monster_TchoTchoBack_1.png,ArkhamFull_Image_Monster_TchoTchoBack_2.png,ArkhamFull_Image_Monster_TchoTchoBack_4.png,ArkhamFull_Image_Monster_TchoTchoBack.png">
-                <piece>TchoTcho1</piece>
-                <piece>TchoTcho2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,VampireBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_Vampire_1.png,ArkhamFull_Image_Monster_VampireBack_1.png,ArkhamFull_Image_Monster_VampireBack_2.png,ArkhamFull_Image_Monster_VampireBack_4.png,ArkhamFull_Image_Monster_VampireBack.png">
-                <piece>Vampire1</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,WarlockBack">
-            <points value="2">
-              <sides paths="ArkhamFull_Image_Monster_Warlock_1.png,ArkhamFull_Image_Monster_WarlockBack_1.png,ArkhamFull_Image_Monster_WarlockBack_2.png,ArkhamFull_Image_Monster_WarlockBack_4.png,ArkhamFull_Image_Monster_WarlockBack.png">
-                <piece>Warlock1</piece>
-                <piece>Warlock2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,WitchBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_Witch_1.png,ArkhamFull_Image_Monster_WitchBack_1.png,ArkhamFull_Image_Monster_WitchBack_2.png,ArkhamFull_Image_Monster_WitchBack_4.png,ArkhamFull_Image_Monster_WitchBack.png">
-                <piece>Witch1</piece>
-                <piece>Witch2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,WraithBack">
-            <points value="3">
-              <sides paths="ArkhamFull_Image_Monster_Wraith_1.png,ArkhamFull_Image_Monster_WraithBack_1.png,ArkhamFull_Image_Monster_WraithBack_2.png,ArkhamFull_Image_Monster_WraithBack_4.png,ArkhamFull_Image_Monster_WraithBack.png">
-                <piece>Wraith1</piece>
-                <piece>Wraith2</piece>
-              </sides>
-            </points>
-          </single_tap>
-          <single_tap action="move_piece" args="location_monster_1,ZombieBack">
-            <points value="1">
-              <sides paths="ArkhamFull_Image_Monster_Zombie_1.png,ArkhamFull_Image_Monster_ZombieBack_1.png,ArkhamFull_Image_Monster_ZombieBack_2.png,ArkhamFull_Image_Monster_ZombieBack_4.png,ArkhamFull_Image_Monster_ZombieBack.png">
-                <piece>Zombie1</piece>
-                <piece>Zombie2</piece>
-                <piece>Zombie3</piece>
-              </sides>
-            </points>
-          </single_tap>
+          <initial_rotation value="0">
+            <single_tap action="move_piece" args="location_monster_1,ByakheeBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_Byakhee_1.png,ArkhamFull_Image_Monster_ByakheeBack_1.png">
+                  <piece>byakhee1</piece>
+                  <piece>byakhee2</piece>
+                  <piece>byakhee3</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ChthonianBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_Chthonian_1.png,ArkhamFull_Image_Monster_ChthonianBack_1.png">
+                  <piece>Chthonian1</piece>
+                  <piece>Chthonian2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ColourOutOfSpaceBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_ColourOutOfSpace_1.png,ArkhamFull_Image_Monster_ColourOutOfSpaceBack_1.png">
+                  <piece>ColourOutOfSpace1</piece>
+                  <piece>ColourOutOfSpace2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,CultistBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_Cultist_1.png,ArkhamFull_Image_Monster_CultistBack_1.png">
+                  <piece>Cultist1</piece>
+                  <piece>Cultist2</piece>
+                  <piece>Cultist3</piece>
+                  <piece>Cultist4</piece>
+                  <piece>Cultist5</piece>
+                  <piece>Cultist6</piece>
+                  <piece>Cultist7</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,DarkYoungBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_DarkYoung_1.png,ArkhamFull_Image_Monster_DarkYoungBack_1.png">
+                  <piece>DarkYoung1</piece>
+                  <piece>DarkYoung2</piece>
+                  <piece>DarkYoung3</piece>
+                  <piece>DarkYoung4</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,DholeBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_Dhole_1.png,ArkhamFull_Image_Monster_DholeBack_1.png">
+                  <piece>Dhole1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,DimensionalShamblerBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_DimensionalShambler_1.png,ArkhamFull_Image_Monster_DimensionalShamblerBack_1.png">
+                  <piece>DimensionalShambler1</piece>
+                  <piece>DimensionalShambler2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ElderThingBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_ElderThing_1.png,ArkhamFull_Image_Monster_ElderThingBack_1.png">
+                  <piece>ElderThing1</piece>
+                  <piece>ElderThing2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,FireVampireBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_FireVampire_1.png,ArkhamFull_Image_Monster_FireVampireBack_1.png">
+                  <piece>FireVampire1</piece>
+                  <piece>FireVampire2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,FlyingPolypBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_FlyingPolyp_1.png,ArkhamFull_Image_Monster_FlyingPolypBack_1.png">
+                  <piece>FlyingPolyp1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,FormlessSpawnBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_FormlessSpawn_1.png,ArkhamFull_Image_Monster_FormlessSpawnBack_1.png">
+                  <piece>FormlessSpawn1</piece>
+                  <piece>FormlessSpawn2</piece>
+                  <piece>FormlessSpawn3</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,GhostBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_Ghost_1.png,ArkhamFull_Image_Monster_GhostBack_1.png">
+                  <piece>Ghost1</piece>
+                  <piece>Ghost2</piece>
+                  <piece>Ghost3</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,GhoulBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_Ghoul_1.png,ArkhamFull_Image_Monster_GhoulBack_1.png">
+                  <piece>Ghoul1</piece>
+                  <piece>Ghoul2</piece>
+                  <piece>Ghoul3</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,GoatSpawnBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_GoatSpawn_1.png,ArkhamFull_Image_Monster_GoatSpawnBack_1.png">
+                  <piece>GoatSpawn1</piece>
+                  <piece>GoatSpawn2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,GugBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_Gug_1.png,ArkhamFull_Image_Monster_GugBack_1.png">
+                  <piece>Gug1</piece>
+                  <piece>Gug2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,HighPriestBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_HighPriest_1.png,ArkhamFull_Image_Monster_HighPriestBack_1.png">
+                  <piece>HighPriest1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,HoundOfTindalosBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_HoundOfTindalos_1.png,ArkhamFull_Image_Monster_HoundOfTindalosBack_1.png">
+                  <piece>HoundOfTindalos1</piece>
+                  <piece>HoundOfTindalos2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,HuntingHorrorBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_HuntingHorror_1.png,ArkhamFull_Image_Monster_HuntingHorrorBack_1.png">
+                  <piece>HuntingHorror1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ManiacBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_Maniac_1.png,ArkhamFull_Image_Monster_ManiacBack_1.png">
+                  <piece>Maniac1</piece>
+                  <piece>Maniac2</piece>
+                  <piece>Maniac3</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,Mi-GoBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_Mi-Go_1.png,ArkhamFull_Image_Monster_Mi-GoBack_1.png,ArkhamFull_Image_Monster_Mi-GoBack_2.png,ArkhamFull_Image_Monster_Mi-GoBack_4.png,ArkhamFull_Image_Monster_Mi-GoBack.png">
+                  <piece>Mi-Go1</piece>
+                  <piece>Mi-Go2</piece>
+                  <piece>Mi-Go3</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,MummyBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_Mummy_1.png,ArkhamFull_Image_Monster_MummyBack_1.png">
+                  <piece>Mummy1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,NightgauntBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_Nightgaunt_1.png,ArkhamFull_Image_Monster_NightgauntBack_1.png">
+                  <piece>Nightgaunt1</piece>
+                  <piece>Nightgaunt2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,RatThingBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_RatThing_1.png,ArkhamFull_Image_Monster_RatThingBack_1.png">
+                  <piece>RatThing1</piece>
+                  <piece>RatThing2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ShoggothBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_Shoggoth_1.png,ArkhamFull_Image_Monster_ShoggothBack_1.png">
+                  <piece>Shoggoth1</piece>
+                  <piece>Shoggoth2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,SpectralHunterBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_SpectralHunter_1.png,ArkhamFull_Image_Monster_SpectralHunterBack_1.png">
+                  <piece>SpectralHunter1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,StarSpawnBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_StarSpawn_1.png,ArkhamFull_Image_Monster_StarSpawnBack_1.png">
+                  <piece>StarSpawn1</piece>
+                  <piece>StarSpawn2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,StarVampireBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_StarVampire_1.png,ArkhamFull_Image_Monster_StarVampireBack_1.png">
+                  <piece>StarVampire1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,TchoTchoBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_TchoTcho_1.png,ArkhamFull_Image_Monster_TchoTchoBack_1.png">
+                  <piece>TchoTcho1</piece>
+                  <piece>TchoTcho2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,VampireBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_Vampire_1.png,ArkhamFull_Image_Monster_VampireBack_1.png">
+                  <piece>Vampire1</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,WarlockBack">
+              <points value="2">
+                <sides paths="ArkhamFull_Image_Monster_Warlock_1.png,ArkhamFull_Image_Monster_WarlockBack_1.png">
+                  <piece>Warlock1</piece>
+                  <piece>Warlock2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,WitchBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_Witch_1.png,ArkhamFull_Image_Monster_WitchBack_1.png">
+                  <piece>Witch1</piece>
+                  <piece>Witch2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,WraithBack">
+              <points value="3">
+                <sides paths="ArkhamFull_Image_Monster_Wraith_1.png,ArkhamFull_Image_Monster_WraithBack_1.png">
+                  <piece>Wraith1</piece>
+                  <piece>Wraith2</piece>
+                </sides>
+              </points>
+            </single_tap>
+            <single_tap action="move_piece" args="location_monster_1,ZombieBack">
+              <points value="1">
+                <sides paths="ArkhamFull_Image_Monster_Zombie_1.png,ArkhamFull_Image_Monster_ZombieBack_1.png">
+                  <piece>Zombie1</piece>
+                  <piece>Zombie2</piece>
+                  <piece>Zombie3</piece>
+                </sides>
+              </points>
+            </single_tap>
+          </initial_rotation>
         </initial_location>
       </piece_type>
       <!-- End Normal Monster tokens -->
