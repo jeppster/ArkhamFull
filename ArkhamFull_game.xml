@@ -380,286 +380,290 @@
   <!-- End Money5 token Sheet locations-->
   <!-- 4x4 mini card slots-->
   <valid_types types="common,unique,spell,ally,skill,injury,madness,bankloan,blessing,curse,retainer,silvertwilight,deputy">
-    <size width="162" height="105">
-      <location_type type="cell">
-        <location_in_action action="set_side" args="1">
-          <corner_coord board="1" x="501" y="0">
-            <location>Mini1_1_1</location>
-          </corner_coord>
-          <corner_coord board="1" x="501" y="105">
-            <location>Mini1_1_2</location>
-          </corner_coord>
-          <corner_coord board="1" x="501" y="210">
-            <location>Mini1_1_3</location>
-          </corner_coord>
-          <corner_coord board="1" x="501" y="315">
-            <location>Mini1_1_4</location>
-          </corner_coord>
-          <corner_coord board="1" x="334" y="0">
-            <location>Mini1_2_1</location>
-          </corner_coord>
-          <corner_coord board="1" x="334" y="105">
-            <location>Mini1_2_2</location>
-          </corner_coord>
-          <corner_coord board="1" x="334" y="210">
-            <location>Mini1_2_3</location>
-          </corner_coord>
-          <corner_coord board="1" x="334" y="315">
-            <location>Mini1_2_4</location>
-          </corner_coord>
-          <corner_coord board="1" x="167" y="0">
-            <location>Mini1_3_1</location>
-          </corner_coord>
-          <corner_coord board="1" x="167" y="105">
-            <location>Mini1_3_2</location>
-          </corner_coord>
-          <corner_coord board="1" x="167" y="210">
-            <location>Mini1_3_3</location>
-          </corner_coord>
-          <corner_coord board="1" x="167" y="315">
-            <location>Mini1_3_4</location>
-          </corner_coord>
-          <corner_coord board="1" x="0" y="0">
-            <location>Mini1_4_1</location>
-          </corner_coord>
-          <corner_coord board="1" x="0" y="105">
-            <location>Mini1_4_2</location>
-          </corner_coord>
-          <corner_coord board="1" x="0" y="210">
-            <location>Mini1_4_3</location>
-          </corner_coord>
-          <corner_coord board="1" x="0" y="315">
-            <location>Mini1_4_4</location>
-          </corner_coord>
-        </location_in_action>
-        <location_in_action action="set_side" args="2">
-          <corner_coord board="2" x="359" y="315">
-            <location>Mini2_1_1</location>
-          </corner_coord>
-          <corner_coord board="2" x="359" y="210">
-            <location>Mini2_1_2</location>
-          </corner_coord>
-          <corner_coord board="2" x="359" y="105">
-            <location>Mini2_1_3</location>
-          </corner_coord>
-          <corner_coord board="2" x="359" y="0">
-            <location>Mini2_1_4</location>
-          </corner_coord>
-          <corner_coord board="2" x="526" y="315">
-            <location>Mini2_2_1</location>
-          </corner_coord>
-          <corner_coord board="2" x="526" y="210">
-            <location>Mini2_2_2</location>
-          </corner_coord>
-          <corner_coord board="2" x="526" y="105">
-            <location>Mini2_2_3</location>
-          </corner_coord>
-          <corner_coord board="2" x="526" y="0">
-            <location>Mini2_2_4</location>
-          </corner_coord>
-          <corner_coord board="2" x="693" y="315">
-            <location>Mini2_3_1</location>
-          </corner_coord>
-          <corner_coord board="2" x="693" y="210">
-            <location>Mini2_3_2</location>
-          </corner_coord>
-          <corner_coord board="2" x="693" y="105">
-            <location>Mini2_3_3</location>
-          </corner_coord>
-          <corner_coord board="2" x="693" y="0">
-            <location>Mini2_3_4</location>
-          </corner_coord>
-          <corner_coord board="2" x="860" y="315">
-            <location>Mini2_4_1</location>
-          </corner_coord>
-          <corner_coord board="2" x="860" y="210">
-            <location>Mini2_4_2</location>
-          </corner_coord>
-          <corner_coord board="2" x="860" y="105">
-            <location>Mini2_4_3</location>
-          </corner_coord>
-          <corner_coord board="2" x="860" y="0">
-            <location>Mini2_4_4</location>
-          </corner_coord>
-        </location_in_action>
-      </location_type>
-    </size>
-    <size width="105" height="162">
-      <location_type type="cell">
-        <location_in_action action="set_side" args="4">
-          <corner_coord board="3" x="0" y="359">
-            <location>Mini3_1_1</location>
-          </corner_coord>
-          <corner_coord board="3" x="105" y="359">
-            <location>Mini3_1_2</location>
-          </corner_coord>
-          <corner_coord board="3" x="210" y="359">
-            <location>Mini3_1_3</location>
-          </corner_coord>
-          <corner_coord board="3" x="315" y="359">
-            <location>Mini3_1_4</location>
-          </corner_coord>
-          <corner_coord board="3" x="0" y="526">
-            <location>Mini3_2_1</location>
-          </corner_coord>
-          <corner_coord board="3" x="105" y="526">
-            <location>Mini3_2_2</location>
-          </corner_coord>
-          <corner_coord board="3" x="210" y="526">
-            <location>Mini3_2_3</location>
-          </corner_coord>
-          <corner_coord board="3" x="315" y="526">
-            <location>Mini3_2_4</location>
-          </corner_coord>
-          <corner_coord board="3" x="0" y="693">
-            <location>Mini3_3_1</location>
-          </corner_coord>
-          <corner_coord board="3" x="105" y="693">
-            <location>Mini3_3_2</location>
-          </corner_coord>
-          <corner_coord board="3" x="210" y="693">
-            <location>Mini3_3_3</location>
-          </corner_coord>
-          <corner_coord board="3" x="315" y="693">
-            <location>Mini3_3_4</location>
-          </corner_coord>
-          <corner_coord board="3" x="0" y="860">
-            <location>Mini3_4_1</location>
-          </corner_coord>
-          <corner_coord board="3" x="105" y="860">
-            <location>Mini3_4_2</location>
-          </corner_coord>
-          <corner_coord board="3" x="210" y="860">
-            <location>Mini3_4_3</location>
-          </corner_coord>
-          <corner_coord board="3" x="315" y="860">
-            <location>Mini3_4_4</location>
-          </corner_coord>
-        </location_in_action>
-        <location_in_action action="set_side" args="3">
-          <corner_coord board="4" x="315" y="501">
-            <location>Mini4_1_1</location>
-          </corner_coord>
-          <corner_coord board="4" x="210" y="501">
-            <location>Mini4_1_2</location>
-          </corner_coord>
-          <corner_coord board="4" x="105" y="501">
-            <location>Mini4_1_3</location>
-          </corner_coord>
-          <corner_coord board="4" x="0" y="501">
-            <location>Mini4_1_4</location>
-          </corner_coord>
-          <corner_coord board="4" x="315" y="334">
-            <location>Mini4_2_1</location>
-          </corner_coord>
-          <corner_coord board="4" x="210" y="334">
-            <location>Mini4_2_2</location>
-          </corner_coord>
-          <corner_coord board="4" x="105" y="334">
-            <location>Mini4_2_3</location>
-          </corner_coord>
-          <corner_coord board="4" x="0" y="334">
-            <location>Mini4_2_4</location>
-          </corner_coord>
-          <corner_coord board="4" x="315" y="167">
-            <location>Mini4_3_1</location>
-          </corner_coord>
-          <corner_coord board="4" x="210" y="167">
-            <location>Mini4_3_2</location>
-          </corner_coord>
-          <corner_coord board="4" x="105" y="167">
-            <location>Mini4_3_3</location>
-          </corner_coord>
-          <corner_coord board="4" x="0" y="167">
-            <location>Mini4_3_4</location>
-          </corner_coord>
-          <corner_coord board="4" x="315" y="0">
-            <location>Mini4_4_1</location>
-          </corner_coord>
-          <corner_coord board="4" x="210" y="0">
-            <location>Mini4_4_2</location>
-          </corner_coord>
-          <corner_coord board="4" x="105" y="0">
-            <location>Mini4_4_3</location>
-          </corner_coord>
-          <corner_coord board="4" x="0" y="0">
-            <location>Mini4_4_4</location>
-          </corner_coord>
-        </location_in_action>
-      </location_type>
-    </size>
+    <location_in_action action="set_side" args="1">
+      <size width="162" height="105">
+        <location_type type="cell">
+          <location_in_action action="set_rotation" args="0">
+            <corner_coord board="1" x="501" y="0">
+              <location>Mini1_1_1</location>
+            </corner_coord>
+            <corner_coord board="1" x="501" y="105">
+              <location>Mini1_1_2</location>
+            </corner_coord>
+            <corner_coord board="1" x="501" y="210">
+              <location>Mini1_1_3</location>
+            </corner_coord>
+            <corner_coord board="1" x="501" y="315">
+              <location>Mini1_1_4</location>
+            </corner_coord>
+            <corner_coord board="1" x="334" y="0">
+              <location>Mini1_2_1</location>
+            </corner_coord>
+            <corner_coord board="1" x="334" y="105">
+              <location>Mini1_2_2</location>
+            </corner_coord>
+            <corner_coord board="1" x="334" y="210">
+              <location>Mini1_2_3</location>
+            </corner_coord>
+            <corner_coord board="1" x="334" y="315">
+              <location>Mini1_2_4</location>
+            </corner_coord>
+            <corner_coord board="1" x="167" y="0">
+              <location>Mini1_3_1</location>
+            </corner_coord>
+            <corner_coord board="1" x="167" y="105">
+              <location>Mini1_3_2</location>
+            </corner_coord>
+            <corner_coord board="1" x="167" y="210">
+              <location>Mini1_3_3</location>
+            </corner_coord>
+            <corner_coord board="1" x="167" y="315">
+              <location>Mini1_3_4</location>
+            </corner_coord>
+            <corner_coord board="1" x="0" y="0">
+              <location>Mini1_4_1</location>
+            </corner_coord>
+            <corner_coord board="1" x="0" y="105">
+              <location>Mini1_4_2</location>
+            </corner_coord>
+            <corner_coord board="1" x="0" y="210">
+              <location>Mini1_4_3</location>
+            </corner_coord>
+            <corner_coord board="1" x="0" y="315">
+              <location>Mini1_4_4</location>
+            </corner_coord>
+          </location_in_action>
+          <location_in_action action="set_rotation" args="180">
+            <corner_coord board="2" x="359" y="315">
+              <location>Mini2_1_1</location>
+            </corner_coord>
+            <corner_coord board="2" x="359" y="210">
+              <location>Mini2_1_2</location>
+            </corner_coord>
+            <corner_coord board="2" x="359" y="105">
+              <location>Mini2_1_3</location>
+            </corner_coord>
+            <corner_coord board="2" x="359" y="0">
+              <location>Mini2_1_4</location>
+            </corner_coord>
+            <corner_coord board="2" x="526" y="315">
+              <location>Mini2_2_1</location>
+            </corner_coord>
+            <corner_coord board="2" x="526" y="210">
+              <location>Mini2_2_2</location>
+            </corner_coord>
+            <corner_coord board="2" x="526" y="105">
+              <location>Mini2_2_3</location>
+            </corner_coord>
+            <corner_coord board="2" x="526" y="0">
+              <location>Mini2_2_4</location>
+            </corner_coord>
+            <corner_coord board="2" x="693" y="315">
+              <location>Mini2_3_1</location>
+            </corner_coord>
+            <corner_coord board="2" x="693" y="210">
+              <location>Mini2_3_2</location>
+            </corner_coord>
+            <corner_coord board="2" x="693" y="105">
+              <location>Mini2_3_3</location>
+            </corner_coord>
+            <corner_coord board="2" x="693" y="0">
+              <location>Mini2_3_4</location>
+            </corner_coord>
+            <corner_coord board="2" x="860" y="315">
+              <location>Mini2_4_1</location>
+            </corner_coord>
+            <corner_coord board="2" x="860" y="210">
+              <location>Mini2_4_2</location>
+            </corner_coord>
+            <corner_coord board="2" x="860" y="105">
+              <location>Mini2_4_3</location>
+            </corner_coord>
+            <corner_coord board="2" x="860" y="0">
+              <location>Mini2_4_4</location>
+            </corner_coord>
+          </location_in_action>
+        </location_type>
+      </size>
+      <size width="105" height="162">
+        <location_type type="cell">
+          <location_in_action action="set_rotation" args="-90">
+            <corner_coord board="3" x="0" y="359">
+              <location>Mini3_1_1</location>
+            </corner_coord>
+            <corner_coord board="3" x="105" y="359">
+              <location>Mini3_1_2</location>
+            </corner_coord>
+            <corner_coord board="3" x="210" y="359">
+              <location>Mini3_1_3</location>
+            </corner_coord>
+            <corner_coord board="3" x="315" y="359">
+              <location>Mini3_1_4</location>
+            </corner_coord>
+            <corner_coord board="3" x="0" y="526">
+              <location>Mini3_2_1</location>
+            </corner_coord>
+            <corner_coord board="3" x="105" y="526">
+              <location>Mini3_2_2</location>
+            </corner_coord>
+            <corner_coord board="3" x="210" y="526">
+              <location>Mini3_2_3</location>
+            </corner_coord>
+            <corner_coord board="3" x="315" y="526">
+              <location>Mini3_2_4</location>
+            </corner_coord>
+            <corner_coord board="3" x="0" y="693">
+              <location>Mini3_3_1</location>
+            </corner_coord>
+            <corner_coord board="3" x="105" y="693">
+              <location>Mini3_3_2</location>
+            </corner_coord>
+            <corner_coord board="3" x="210" y="693">
+              <location>Mini3_3_3</location>
+            </corner_coord>
+            <corner_coord board="3" x="315" y="693">
+              <location>Mini3_3_4</location>
+            </corner_coord>
+            <corner_coord board="3" x="0" y="860">
+              <location>Mini3_4_1</location>
+            </corner_coord>
+            <corner_coord board="3" x="105" y="860">
+              <location>Mini3_4_2</location>
+            </corner_coord>
+            <corner_coord board="3" x="210" y="860">
+              <location>Mini3_4_3</location>
+            </corner_coord>
+            <corner_coord board="3" x="315" y="860">
+              <location>Mini3_4_4</location>
+            </corner_coord>
+          </location_in_action>
+          <location_in_action action="set_rotation" args="90">
+            <corner_coord board="4" x="315" y="501">
+              <location>Mini4_1_1</location>
+            </corner_coord>
+            <corner_coord board="4" x="210" y="501">
+              <location>Mini4_1_2</location>
+            </corner_coord>
+            <corner_coord board="4" x="105" y="501">
+              <location>Mini4_1_3</location>
+            </corner_coord>
+            <corner_coord board="4" x="0" y="501">
+              <location>Mini4_1_4</location>
+            </corner_coord>
+            <corner_coord board="4" x="315" y="334">
+              <location>Mini4_2_1</location>
+            </corner_coord>
+            <corner_coord board="4" x="210" y="334">
+              <location>Mini4_2_2</location>
+            </corner_coord>
+            <corner_coord board="4" x="105" y="334">
+              <location>Mini4_2_3</location>
+            </corner_coord>
+            <corner_coord board="4" x="0" y="334">
+              <location>Mini4_2_4</location>
+            </corner_coord>
+            <corner_coord board="4" x="315" y="167">
+              <location>Mini4_3_1</location>
+            </corner_coord>
+            <corner_coord board="4" x="210" y="167">
+              <location>Mini4_3_2</location>
+            </corner_coord>
+            <corner_coord board="4" x="105" y="167">
+              <location>Mini4_3_3</location>
+            </corner_coord>
+            <corner_coord board="4" x="0" y="167">
+              <location>Mini4_3_4</location>
+            </corner_coord>
+            <corner_coord board="4" x="315" y="0">
+              <location>Mini4_4_1</location>
+            </corner_coord>
+            <corner_coord board="4" x="210" y="0">
+              <location>Mini4_4_2</location>
+            </corner_coord>
+            <corner_coord board="4" x="105" y="0">
+              <location>Mini4_4_3</location>
+            </corner_coord>
+            <corner_coord board="4" x="0" y="0">
+              <location>Mini4_4_4</location>
+            </corner_coord>
+          </location_in_action>
+        </location_type>
+      </size>
+    </location_in_action>
   </valid_types>
   <!-- End 4x4 mini card slots-->
   <!-- END Investigator Board locations -->
   <!-- Board mini card locations -->
   <size width="77" height="50">
     <location_type type="queue">
-      <location_in_action action="set_side" args="0">
-        <valid_types types="common">
-          <corner_coord board="0" x="493" y="560">
-            <location>location_main_common</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="unique">
-          <corner_coord board="0" x="411" y="560">
-            <location>location_main_unique</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="spell">
-          <corner_coord board="0" x="329" y="560">
-            <location>location_main_spell</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="skill">
-          <corner_coord board="0" x="247" y="560">
-            <location>location_main_skill</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="ally">
-          <corner_coord board="0" x="165" y="560">
-            <location>location_main_ally</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="injury">
-          <corner_coord board="0" x="83" y="560">
-            <location>location_main_injury</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="madness">
-          <corner_coord board="0" x="1" y="560">
-            <location>location_main_madness</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="bankloan">
-          <corner_coord board="0" x="493" y="615">
-            <location>location_main_bankloan</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="blessing">
-          <corner_coord board="0" x="411" y="615">
-            <location>location_main_blessing</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="curse">
-          <corner_coord board="0" x="329" y="615">
-            <location>location_main_curse</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="retainer">
-          <corner_coord board="0" x="247" y="615">
-            <location>location_main_retainer</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="silvertwilight">
-          <corner_coord board="0" x="165" y="615">
-            <location>location_main_silvertwilight</location>
-          </corner_coord>
-        </valid_types>
-        <valid_types types="deputy">
-          <corner_coord board="0" x="83" y="615">
-            <location>location_main_deputy</location>
-          </corner_coord>
-        </valid_types>
+      <location_in_action action="set_rotation" args="0">
+        <location_in_action action="set_side" args="0">
+          <valid_types types="common">
+            <corner_coord board="0" x="493" y="560">
+              <location>location_main_common</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="unique">
+            <corner_coord board="0" x="411" y="560">
+              <location>location_main_unique</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="spell">
+            <corner_coord board="0" x="329" y="560">
+              <location>location_main_spell</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="skill">
+            <corner_coord board="0" x="247" y="560">
+              <location>location_main_skill</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="ally">
+            <corner_coord board="0" x="165" y="560">
+              <location>location_main_ally</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="injury">
+            <corner_coord board="0" x="83" y="560">
+              <location>location_main_injury</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="madness">
+            <corner_coord board="0" x="1" y="560">
+              <location>location_main_madness</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="bankloan">
+            <corner_coord board="0" x="493" y="615">
+              <location>location_main_bankloan</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="blessing">
+            <corner_coord board="0" x="411" y="615">
+              <location>location_main_blessing</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="curse">
+            <corner_coord board="0" x="329" y="615">
+              <location>location_main_curse</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="retainer">
+            <corner_coord board="0" x="247" y="615">
+              <location>location_main_retainer</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="silvertwilight">
+            <corner_coord board="0" x="165" y="615">
+              <location>location_main_silvertwilight</location>
+            </corner_coord>
+          </valid_types>
+          <valid_types types="deputy">
+            <corner_coord board="0" x="83" y="615">
+              <location>location_main_deputy</location>
+            </corner_coord>
+          </valid_types>
+        </location_in_action>
       </location_in_action>
     </location_type>
   </size>
@@ -758,7 +762,15 @@
   <!-- Board discard location -->
   <size width="77" height="77">
     <location_in_action action="set_side" args="0">
-      <location_in_action action="set_rotation" args="0"><location_type type="stack"><valid_types types="common,unique,spell,ally,skill,injury,madness,bankloan,blessing,curse,retainer,silvertwilight,deputy,gate,monster,monsterspecial"><corner_coord board="0" x="493" y="670"><location>location_main_discard</location></corner_coord></valid_types></location_type></location_in_action>
+      <location_in_action action="set_rotation" args="0">
+        <location_type type="stack">
+          <valid_types types="common,unique,spell,ally,skill,injury,madness,bankloan,blessing,curse,retainer,silvertwilight,deputy,gate,monster,monsterspecial">
+            <corner_coord board="0" x="493" y="670">
+              <location>location_main_discard</location>
+            </corner_coord>
+          </valid_types>
+        </location_type>
+      </location_in_action>
     </location_in_action>
   </size>
   <!-- End Board discard location -->
@@ -5726,181 +5738,181 @@
       <piece_type type="common">
         <triple_tap action="move_piece" args="location_main_common">
           <initial_location name="location_main_common">
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_1_1.png,ArkhamFull_Image_Common_1_2.png,ArkhamFull_Image_Common_1_4.png,ArkhamFull_Image_Common_1.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_1_1.png">
               <piece>common1</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_2_1.png,ArkhamFull_Image_Common_2_2.png,ArkhamFull_Image_Common_2_4.png,ArkhamFull_Image_Common_2.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_2_1.png">
               <piece>common2</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_3_1.png,ArkhamFull_Image_Common_3_2.png,ArkhamFull_Image_Common_3_4.png,ArkhamFull_Image_Common_3.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_3_1.png">
               <piece>common3</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_4_1.png,ArkhamFull_Image_Common_4_2.png,ArkhamFull_Image_Common_4_4.png,ArkhamFull_Image_Common_4.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_4_1.png">
               <piece>common4</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_5_1.png,ArkhamFull_Image_Common_5_2.png,ArkhamFull_Image_Common_5_4.png,ArkhamFull_Image_Common_5.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_5_1.png">
               <piece>common5</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_6_1.png,ArkhamFull_Image_Common_6_2.png,ArkhamFull_Image_Common_6_4.png,ArkhamFull_Image_Common_6.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_6_1.png">
               <piece>common6</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_7_1.png,ArkhamFull_Image_Common_7_2.png,ArkhamFull_Image_Common_7_4.png,ArkhamFull_Image_Common_7.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_7_1.png">
               <piece>common7</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_8_1.png,ArkhamFull_Image_Common_8_2.png,ArkhamFull_Image_Common_8_4.png,ArkhamFull_Image_Common_8.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_8_1.png">
               <piece>common8</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_9_1.png,ArkhamFull_Image_Common_9_2.png,ArkhamFull_Image_Common_9_4.png,ArkhamFull_Image_Common_9.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_9_1.png">
               <piece>common9</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_10_1.png,ArkhamFull_Image_Common_10_2.png,ArkhamFull_Image_Common_10_4.png,ArkhamFull_Image_Common_10.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_10_1.png">
               <piece>common10</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_11_1.png,ArkhamFull_Image_Common_11_2.png,ArkhamFull_Image_Common_11_4.png,ArkhamFull_Image_Common_11.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_11_1.png">
               <piece>common11</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_12_1.png,ArkhamFull_Image_Common_12_2.png,ArkhamFull_Image_Common_12_4.png,ArkhamFull_Image_Common_12.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_12_1.png">
               <piece>common12</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_13_1.png,ArkhamFull_Image_Common_13_2.png,ArkhamFull_Image_Common_13_4.png,ArkhamFull_Image_Common_13.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_13_1.png">
               <piece>common13</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_14_1.png,ArkhamFull_Image_Common_14_2.png,ArkhamFull_Image_Common_14_4.png,ArkhamFull_Image_Common_14.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_14_1.png">
               <piece>common14</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_15_1.png,ArkhamFull_Image_Common_15_2.png,ArkhamFull_Image_Common_15_4.png,ArkhamFull_Image_Common_15.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_15_1.png">
               <piece>common15</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_16_1.png,ArkhamFull_Image_Common_16_2.png,ArkhamFull_Image_Common_16_4.png,ArkhamFull_Image_Common_16.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_16_1.png">
               <piece>common16</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_17_1.png,ArkhamFull_Image_Common_17_2.png,ArkhamFull_Image_Common_17_4.png,ArkhamFull_Image_Common_17.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_17_1.png">
               <piece>common17</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_18_1.png,ArkhamFull_Image_Common_18_2.png,ArkhamFull_Image_Common_18_4.png,ArkhamFull_Image_Common_18.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_18_1.png">
               <piece>common18</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_19_1.png,ArkhamFull_Image_Common_19_2.png,ArkhamFull_Image_Common_19_4.png,ArkhamFull_Image_Common_19.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_19_1.png">
               <piece>common19</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_20_1.png,ArkhamFull_Image_Common_20_2.png,ArkhamFull_Image_Common_20_4.png,ArkhamFull_Image_Common_20.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_20_1.png">
               <piece>common20</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_21_1.png,ArkhamFull_Image_Common_21_2.png,ArkhamFull_Image_Common_21_4.png,ArkhamFull_Image_Common_21.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_21_1.png">
               <piece>common21</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_22_1.png,ArkhamFull_Image_Common_22_2.png,ArkhamFull_Image_Common_22_4.png,ArkhamFull_Image_Common_22.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_22_1.png">
               <piece>common22</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_23_1.png,ArkhamFull_Image_Common_23_2.png,ArkhamFull_Image_Common_23_4.png,ArkhamFull_Image_Common_23.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_23_1.png">
               <piece>common23</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_24_1.png,ArkhamFull_Image_Common_24_2.png,ArkhamFull_Image_Common_24_4.png,ArkhamFull_Image_Common_24.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_24_1.png">
               <piece>common24</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_25_1.png,ArkhamFull_Image_Common_25_2.png,ArkhamFull_Image_Common_25_4.png,ArkhamFull_Image_Common_25.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_25_1.png">
               <piece>common25</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_26_1.png,ArkhamFull_Image_Common_26_2.png,ArkhamFull_Image_Common_26_4.png,ArkhamFull_Image_Common_26.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_26_1.png">
               <piece>common26</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_27_1.png,ArkhamFull_Image_Common_27_2.png,ArkhamFull_Image_Common_27_4.png,ArkhamFull_Image_Common_27.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_27_1.png">
               <piece>common27</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_28_1.png,ArkhamFull_Image_Common_28_2.png,ArkhamFull_Image_Common_28_4.png,ArkhamFull_Image_Common_28.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_28_1.png">
               <piece>common28</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_29_1.png,ArkhamFull_Image_Common_29_2.png,ArkhamFull_Image_Common_29_4.png,ArkhamFull_Image_Common_29.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_29_1.png">
               <piece>common29</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_30_1.png,ArkhamFull_Image_Common_30_2.png,ArkhamFull_Image_Common_30_4.png,ArkhamFull_Image_Common_30.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_30_1.png">
               <piece>common30</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_31_1.png,ArkhamFull_Image_Common_31_2.png,ArkhamFull_Image_Common_31_4.png,ArkhamFull_Image_Common_31.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_31_1.png">
               <piece>common31</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_32_1.png,ArkhamFull_Image_Common_32_2.png,ArkhamFull_Image_Common_32_4.png,ArkhamFull_Image_Common_32.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_32_1.png">
               <piece>common32</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_33_1.png,ArkhamFull_Image_Common_33_2.png,ArkhamFull_Image_Common_33_4.png,ArkhamFull_Image_Common_33.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_33_1.png">
               <piece>common33</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_34_1.png,ArkhamFull_Image_Common_34_2.png,ArkhamFull_Image_Common_34_4.png,ArkhamFull_Image_Common_34.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_34_1.png">
               <piece>common34</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_35_1.png,ArkhamFull_Image_Common_35_2.png,ArkhamFull_Image_Common_35_4.png,ArkhamFull_Image_Common_35.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_35_1.png">
               <piece>common35</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_36_1.png,ArkhamFull_Image_Common_36_2.png,ArkhamFull_Image_Common_36_4.png,ArkhamFull_Image_Common_36.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_36_1.png">
               <piece>common36</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_37_1.png,ArkhamFull_Image_Common_37_2.png,ArkhamFull_Image_Common_37_4.png,ArkhamFull_Image_Common_37.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_37_1.png">
               <piece>common37</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_38_1.png,ArkhamFull_Image_Common_38_2.png,ArkhamFull_Image_Common_38_4.png,ArkhamFull_Image_Common_38.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_38_1.png">
               <piece>common38</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_39_1.png,ArkhamFull_Image_Common_39_2.png,ArkhamFull_Image_Common_39_4.png,ArkhamFull_Image_Common_39.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_39_1.png">
               <piece>common39</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_40_1.png,ArkhamFull_Image_Common_40_2.png,ArkhamFull_Image_Common_40_4.png,ArkhamFull_Image_Common_40.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_40_1.png">
               <piece>common40</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_41_1.png,ArkhamFull_Image_Common_41_2.png,ArkhamFull_Image_Common_41_4.png,ArkhamFull_Image_Common_41.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_41_1.png">
               <piece>common41</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_42_1.png,ArkhamFull_Image_Common_42_2.png,ArkhamFull_Image_Common_42_4.png,ArkhamFull_Image_Common_42.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_42_1.png">
               <piece>common42</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_43_1.png,ArkhamFull_Image_Common_43_2.png,ArkhamFull_Image_Common_43_4.png,ArkhamFull_Image_Common_43.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_43_1.png">
               <piece>common43</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_44_1.png,ArkhamFull_Image_Common_44_2.png,ArkhamFull_Image_Common_44_4.png,ArkhamFull_Image_Common_44.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_44_1.png">
               <piece>common44</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_45_1.png,ArkhamFull_Image_Common_45_2.png,ArkhamFull_Image_Common_45_4.png,ArkhamFull_Image_Common_45.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_45_1.png">
               <piece>common45</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_46_1.png,ArkhamFull_Image_Common_46_2.png,ArkhamFull_Image_Common_46_4.png,ArkhamFull_Image_Common_46.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_46_1.png">
               <piece>common46</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_47_1.png,ArkhamFull_Image_Common_47_2.png,ArkhamFull_Image_Common_47_4.png,ArkhamFull_Image_Common_47.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_47_1.png">
               <piece>common47</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_48_1.png,ArkhamFull_Image_Common_48_2.png,ArkhamFull_Image_Common_48_4.png,ArkhamFull_Image_Common_48.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_48_1.png">
               <piece>common48</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_49_1.png,ArkhamFull_Image_Common_49_2.png,ArkhamFull_Image_Common_49_4.png,ArkhamFull_Image_Common_49.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_49_1.png">
               <piece>common49</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_50_1.png,ArkhamFull_Image_Common_50_2.png,ArkhamFull_Image_Common_50_4.png,ArkhamFull_Image_Common_50.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_50_1.png">
               <piece>common50</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_51_1.png,ArkhamFull_Image_Common_51_2.png,ArkhamFull_Image_Common_51_4.png,ArkhamFull_Image_Common_51.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_51_1.png">
               <piece>common51</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_52_1.png,ArkhamFull_Image_Common_52_2.png,ArkhamFull_Image_Common_52_4.png,ArkhamFull_Image_Common_52.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_52_1.png">
               <piece>common52</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_53_1.png,ArkhamFull_Image_Common_53_2.png,ArkhamFull_Image_Common_53_4.png,ArkhamFull_Image_Common_53.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_53_1.png">
               <piece>common53</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_54_1.png,ArkhamFull_Image_Common_54_2.png,ArkhamFull_Image_Common_54_4.png,ArkhamFull_Image_Common_54.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_54_1.png">
               <piece>common54</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_55_1.png,ArkhamFull_Image_Common_55_2.png,ArkhamFull_Image_Common_55_4.png,ArkhamFull_Image_Common_55.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_55_1.png">
               <piece>common55</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_56_1.png,ArkhamFull_Image_Common_56_2.png,ArkhamFull_Image_Common_56_4.png,ArkhamFull_Image_Common_56.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_56_1.png">
               <piece>common56</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_57_1.png,ArkhamFull_Image_Common_57_2.png,ArkhamFull_Image_Common_57_4.png,ArkhamFull_Image_Common_57.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_57_1.png">
               <piece>common57</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_58_1.png,ArkhamFull_Image_Common_58_2.png,ArkhamFull_Image_Common_58_4.png,ArkhamFull_Image_Common_58.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_58_1.png">
               <piece>common58</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_59_1.png,ArkhamFull_Image_Common_59_2.png,ArkhamFull_Image_Common_59_4.png,ArkhamFull_Image_Common_59.png">
+            <sides paths="ArkhamFull_Image_Common_Back_1.png,ArkhamFull_Image_Common_59_1.png">
               <piece>common59</piece>
             </sides>
           </initial_location>
@@ -5911,196 +5923,196 @@
       <piece_type type="unique">
         <triple_tap action="move_piece" args="location_main_unique">
           <initial_location name="location_main_unique">
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_1_1.png,ArkhamFull_Image_Unique_1_2.png,ArkhamFull_Image_Unique_1_4.png,ArkhamFull_Image_Unique_1.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_1_1.png">
               <piece>unique1</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_2_1.png,ArkhamFull_Image_Unique_2_2.png,ArkhamFull_Image_Unique_2_4.png,ArkhamFull_Image_Unique_2.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_2_1.png">
               <piece>unique2</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_3_1.png,ArkhamFull_Image_Unique_3_2.png,ArkhamFull_Image_Unique_3_4.png,ArkhamFull_Image_Unique_3.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_3_1.png">
               <piece>unique3</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_4_1.png,ArkhamFull_Image_Unique_4_2.png,ArkhamFull_Image_Unique_4_4.png,ArkhamFull_Image_Unique_4.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_4_1.png">
               <piece>unique4</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_5_1.png,ArkhamFull_Image_Unique_5_2.png,ArkhamFull_Image_Unique_5_4.png,ArkhamFull_Image_Unique_5.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_5_1.png">
               <piece>unique5</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_6_1.png,ArkhamFull_Image_Unique_6_2.png,ArkhamFull_Image_Unique_6_4.png,ArkhamFull_Image_Unique_6.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_6_1.png">
               <piece>unique6</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_7_1.png,ArkhamFull_Image_Unique_7_2.png,ArkhamFull_Image_Unique_7_4.png,ArkhamFull_Image_Unique_7.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_7_1.png">
               <piece>unique7</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_8_1.png,ArkhamFull_Image_Unique_8_2.png,ArkhamFull_Image_Unique_8_4.png,ArkhamFull_Image_Unique_8.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_8_1.png">
               <piece>unique8</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_9_1.png,ArkhamFull_Image_Unique_9_2.png,ArkhamFull_Image_Unique_9_4.png,ArkhamFull_Image_Unique_9.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_9_1.png">
               <piece>unique9</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_10_1.png,ArkhamFull_Image_Unique_10_2.png,ArkhamFull_Image_Unique_10_4.png,ArkhamFull_Image_Unique_10.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_10_1.png">
               <piece>unique10</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_11_1.png,ArkhamFull_Image_Unique_11_2.png,ArkhamFull_Image_Unique_11_4.png,ArkhamFull_Image_Unique_11.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_11_1.png">
               <piece>unique11</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_12_1.png,ArkhamFull_Image_Unique_12_2.png,ArkhamFull_Image_Unique_12_4.png,ArkhamFull_Image_Unique_12.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_12_1.png">
               <piece>unique12</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_13_1.png,ArkhamFull_Image_Unique_13_2.png,ArkhamFull_Image_Unique_13_4.png,ArkhamFull_Image_Unique_13.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_13_1.png">
               <piece>unique13</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_14_1.png,ArkhamFull_Image_Unique_14_2.png,ArkhamFull_Image_Unique_14_4.png,ArkhamFull_Image_Unique_14.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_14_1.png">
               <piece>unique14</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_15_1.png,ArkhamFull_Image_Unique_15_2.png,ArkhamFull_Image_Unique_15_4.png,ArkhamFull_Image_Unique_15.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_15_1.png">
               <piece>unique15</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_16_1.png,ArkhamFull_Image_Unique_16_2.png,ArkhamFull_Image_Unique_16_4.png,ArkhamFull_Image_Unique_16.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_16_1.png">
               <piece>unique16</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_17_1.png,ArkhamFull_Image_Unique_17_2.png,ArkhamFull_Image_Unique_17_4.png,ArkhamFull_Image_Unique_17.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_17_1.png">
               <piece>unique17</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_18_1.png,ArkhamFull_Image_Unique_18_2.png,ArkhamFull_Image_Unique_18_4.png,ArkhamFull_Image_Unique_18.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_18_1.png">
               <piece>unique18</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_19_1.png,ArkhamFull_Image_Unique_19_2.png,ArkhamFull_Image_Unique_19_4.png,ArkhamFull_Image_Unique_19.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_19_1.png">
               <piece>unique19</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_20_1.png,ArkhamFull_Image_Unique_20_2.png,ArkhamFull_Image_Unique_20_4.png,ArkhamFull_Image_Unique_20.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_20_1.png">
               <piece>unique20</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_21_1.png,ArkhamFull_Image_Unique_21_2.png,ArkhamFull_Image_Unique_21_4.png,ArkhamFull_Image_Unique_21.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_21_1.png">
               <piece>unique21</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_22_1.png,ArkhamFull_Image_Unique_22_2.png,ArkhamFull_Image_Unique_22_4.png,ArkhamFull_Image_Unique_22.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_22_1.png">
               <piece>unique22</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_23_1.png,ArkhamFull_Image_Unique_23_2.png,ArkhamFull_Image_Unique_23_4.png,ArkhamFull_Image_Unique_23.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_23_1.png">
               <piece>unique23</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_24_1.png,ArkhamFull_Image_Unique_24_2.png,ArkhamFull_Image_Unique_24_4.png,ArkhamFull_Image_Unique_24.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_24_1.png">
               <piece>unique24</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_25_1.png,ArkhamFull_Image_Unique_25_2.png,ArkhamFull_Image_Unique_25_4.png,ArkhamFull_Image_Unique_25.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_25_1.png">
               <piece>unique25</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_26_1.png,ArkhamFull_Image_Unique_26_2.png,ArkhamFull_Image_Unique_26_4.png,ArkhamFull_Image_Unique_26.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_26_1.png">
               <piece>unique26</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_27_1.png,ArkhamFull_Image_Unique_27_2.png,ArkhamFull_Image_Unique_27_4.png,ArkhamFull_Image_Unique_27.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_27_1.png">
               <piece>unique27</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_28_1.png,ArkhamFull_Image_Unique_28_2.png,ArkhamFull_Image_Unique_28_4.png,ArkhamFull_Image_Unique_28.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_28_1.png">
               <piece>unique28</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_29_1.png,ArkhamFull_Image_Unique_29_2.png,ArkhamFull_Image_Unique_29_4.png,ArkhamFull_Image_Unique_29.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_29_1.png">
               <piece>unique29</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_30_1.png,ArkhamFull_Image_Unique_30_2.png,ArkhamFull_Image_Unique_30_4.png,ArkhamFull_Image_Unique_30.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_30_1.png">
               <piece>unique30</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_31_1.png,ArkhamFull_Image_Unique_31_2.png,ArkhamFull_Image_Unique_31_4.png,ArkhamFull_Image_Unique_31.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_31_1.png">
               <piece>unique31</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_32_1.png,ArkhamFull_Image_Unique_32_2.png,ArkhamFull_Image_Unique_32_4.png,ArkhamFull_Image_Unique_32.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_32_1.png">
               <piece>unique32</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_33_1.png,ArkhamFull_Image_Unique_33_2.png,ArkhamFull_Image_Unique_33_4.png,ArkhamFull_Image_Unique_33.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_33_1.png">
               <piece>unique33</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_34_1.png,ArkhamFull_Image_Unique_34_2.png,ArkhamFull_Image_Unique_34_4.png,ArkhamFull_Image_Unique_34.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_34_1.png">
               <piece>unique34</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_35_1.png,ArkhamFull_Image_Unique_35_2.png,ArkhamFull_Image_Unique_35_4.png,ArkhamFull_Image_Unique_35.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_35_1.png">
               <piece>unique35</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_36_1.png,ArkhamFull_Image_Unique_36_2.png,ArkhamFull_Image_Unique_36_4.png,ArkhamFull_Image_Unique_36.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_36_1.png">
               <piece>unique36</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_37_1.png,ArkhamFull_Image_Unique_37_2.png,ArkhamFull_Image_Unique_37_4.png,ArkhamFull_Image_Unique_37.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_37_1.png">
               <piece>unique37</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_38_1.png,ArkhamFull_Image_Unique_38_2.png,ArkhamFull_Image_Unique_38_4.png,ArkhamFull_Image_Unique_38.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_38_1.png">
               <piece>unique38</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_39_1.png,ArkhamFull_Image_Unique_39_2.png,ArkhamFull_Image_Unique_39_4.png,ArkhamFull_Image_Unique_39.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_39_1.png">
               <piece>unique39</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_40_1.png,ArkhamFull_Image_Unique_40_2.png,ArkhamFull_Image_Unique_40_4.png,ArkhamFull_Image_Unique_40.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_40_1.png">
               <piece>unique40</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_41_1.png,ArkhamFull_Image_Unique_41_2.png,ArkhamFull_Image_Unique_41_4.png,ArkhamFull_Image_Unique_41.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_41_1.png">
               <piece>unique41</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_42_1.png,ArkhamFull_Image_Unique_42_2.png,ArkhamFull_Image_Unique_42_4.png,ArkhamFull_Image_Unique_42.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_42_1.png">
               <piece>unique42</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_43_1.png,ArkhamFull_Image_Unique_43_2.png,ArkhamFull_Image_Unique_43_4.png,ArkhamFull_Image_Unique_43.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_43_1.png">
               <piece>unique43</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_44_1.png,ArkhamFull_Image_Unique_44_2.png,ArkhamFull_Image_Unique_44_4.png,ArkhamFull_Image_Unique_44.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_44_1.png">
               <piece>unique44</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_45_1.png,ArkhamFull_Image_Unique_45_2.png,ArkhamFull_Image_Unique_45_4.png,ArkhamFull_Image_Unique_45.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_45_1.png">
               <piece>unique45</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_46_1.png,ArkhamFull_Image_Unique_46_2.png,ArkhamFull_Image_Unique_46_4.png,ArkhamFull_Image_Unique_46.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_46_1.png">
               <piece>unique46</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_47_1.png,ArkhamFull_Image_Unique_47_2.png,ArkhamFull_Image_Unique_47_4.png,ArkhamFull_Image_Unique_47.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_47_1.png">
               <piece>unique47</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_48_1.png,ArkhamFull_Image_Unique_48_2.png,ArkhamFull_Image_Unique_48_4.png,ArkhamFull_Image_Unique_48.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_48_1.png">
               <piece>unique48</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_49_1.png,ArkhamFull_Image_Unique_49_2.png,ArkhamFull_Image_Unique_49_4.png,ArkhamFull_Image_Unique_49.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_49_1.png">
               <piece>unique49</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_50_1.png,ArkhamFull_Image_Unique_50_2.png,ArkhamFull_Image_Unique_50_4.png,ArkhamFull_Image_Unique_50.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_50_1.png">
               <piece>unique50</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_51_1.png,ArkhamFull_Image_Unique_51_2.png,ArkhamFull_Image_Unique_51_4.png,ArkhamFull_Image_Unique_51.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_51_1.png">
               <piece>unique51</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_52_1.png,ArkhamFull_Image_Unique_52_2.png,ArkhamFull_Image_Unique_52_4.png,ArkhamFull_Image_Unique_52.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_52_1.png">
               <piece>unique52</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_53_1.png,ArkhamFull_Image_Unique_53_2.png,ArkhamFull_Image_Unique_53_4.png,ArkhamFull_Image_Unique_53.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_53_1.png">
               <piece>unique53</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_54_1.png,ArkhamFull_Image_Unique_54_2.png,ArkhamFull_Image_Unique_54_4.png,ArkhamFull_Image_Unique_54.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_54_1.png">
               <piece>unique54</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_55_1.png,ArkhamFull_Image_Unique_55_2.png,ArkhamFull_Image_Unique_55_4.png,ArkhamFull_Image_Unique_55.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_55_1.png">
               <piece>unique55</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_56_1.png,ArkhamFull_Image_Unique_56_2.png,ArkhamFull_Image_Unique_56_4.png,ArkhamFull_Image_Unique_56.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_56_1.png">
               <piece>unique56</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_57_1.png,ArkhamFull_Image_Unique_57_2.png,ArkhamFull_Image_Unique_57_4.png,ArkhamFull_Image_Unique_57.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_57_1.png">
               <piece>unique57</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_58_1.png,ArkhamFull_Image_Unique_58_2.png,ArkhamFull_Image_Unique_58_4.png,ArkhamFull_Image_Unique_58.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_58_1.png">
               <piece>unique58</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_59_1.png,ArkhamFull_Image_Unique_59_2.png,ArkhamFull_Image_Unique_59_4.png,ArkhamFull_Image_Unique_59.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_59_1.png">
               <piece>unique59</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_60_1.png,ArkhamFull_Image_Unique_60_2.png,ArkhamFull_Image_Unique_60_4.png,ArkhamFull_Image_Unique_60.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_60_1.png">
               <piece>unique60</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_61_1.png,ArkhamFull_Image_Unique_61_2.png,ArkhamFull_Image_Unique_61_4.png,ArkhamFull_Image_Unique_61.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_61_1.png">
               <piece>unique61</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_62_1.png,ArkhamFull_Image_Unique_62_2.png,ArkhamFull_Image_Unique_62_4.png,ArkhamFull_Image_Unique_62.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_62_1.png">
               <piece>unique62</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_63_1.png,ArkhamFull_Image_Unique_63_2.png,ArkhamFull_Image_Unique_63_4.png,ArkhamFull_Image_Unique_63.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_63_1.png">
               <piece>unique63</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_64_1.png,ArkhamFull_Image_Unique_64_2.png,ArkhamFull_Image_Unique_64_4.png,ArkhamFull_Image_Unique_64.png">
+            <sides paths="ArkhamFull_Image_Unique_Back_1.png,ArkhamFull_Image_Unique_64_1.png">
               <piece>unique64</piece>
             </sides>
           </initial_location>
@@ -6111,187 +6123,187 @@
       <piece_type type="spell">
         <triple_tap action="move_piece" args="location_main_spell">
           <initial_location name="location_main_spell">
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_1_1.png,ArkhamFull_Image_Spell_1_2.png,ArkhamFull_Image_Spell_1_4.png,ArkhamFull_Image_Spell_1.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_1_1.png">
               <piece>spell1</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_2_1.png,ArkhamFull_Image_Spell_2_2.png,ArkhamFull_Image_Spell_2_4.png,ArkhamFull_Image_Spell_2.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_2_1.png">
               <piece>spell2</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_3_1.png,ArkhamFull_Image_Spell_3_2.png,ArkhamFull_Image_Spell_3_4.png,ArkhamFull_Image_Spell_3.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_3_1.png">
               <piece>spell3</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_4_1.png,ArkhamFull_Image_Spell_4_2.png,ArkhamFull_Image_Spell_4_4.png,ArkhamFull_Image_Spell_4.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_4_1.png">
               <piece>spell4</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_5_1.png,ArkhamFull_Image_Spell_5_2.png,ArkhamFull_Image_Spell_5_4.png,ArkhamFull_Image_Spell_5.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_5_1.png">
               <piece>spell5</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_6_1.png,ArkhamFull_Image_Spell_6_2.png,ArkhamFull_Image_Spell_6_4.png,ArkhamFull_Image_Spell_6.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_6_1.png">
               <piece>spell6</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_7_1.png,ArkhamFull_Image_Spell_7_2.png,ArkhamFull_Image_Spell_7_4.png,ArkhamFull_Image_Spell_7.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_7_1.png">
               <piece>spell7</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_8_1.png,ArkhamFull_Image_Spell_8_2.png,ArkhamFull_Image_Spell_8_4.png,ArkhamFull_Image_Spell_8.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_8_1.png">
               <piece>spell8</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_9_1.png,ArkhamFull_Image_Spell_9_2.png,ArkhamFull_Image_Spell_9_4.png,ArkhamFull_Image_Spell_9.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_9_1.png">
               <piece>spell9</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_10_1.png,ArkhamFull_Image_Spell_10_2.png,ArkhamFull_Image_Spell_10_4.png,ArkhamFull_Image_Spell_10.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_10_1.png">
               <piece>spell10</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_11_1.png,ArkhamFull_Image_Spell_11_2.png,ArkhamFull_Image_Spell_11_4.png,ArkhamFull_Image_Spell_11.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_11_1.png">
               <piece>spell11</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_12_1.png,ArkhamFull_Image_Spell_12_2.png,ArkhamFull_Image_Spell_12_4.png,ArkhamFull_Image_Spell_12.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_12_1.png">
               <piece>spell12</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_13_1.png,ArkhamFull_Image_Spell_13_2.png,ArkhamFull_Image_Spell_13_4.png,ArkhamFull_Image_Spell_13.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_13_1.png">
               <piece>spell13</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_14_1.png,ArkhamFull_Image_Spell_14_2.png,ArkhamFull_Image_Spell_14_4.png,ArkhamFull_Image_Spell_14.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_14_1.png">
               <piece>spell14</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_15_1.png,ArkhamFull_Image_Spell_15_2.png,ArkhamFull_Image_Spell_15_4.png,ArkhamFull_Image_Spell_15.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_15_1.png">
               <piece>spell15</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_16_1.png,ArkhamFull_Image_Spell_16_2.png,ArkhamFull_Image_Spell_16_4.png,ArkhamFull_Image_Spell_16.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_16_1.png">
               <piece>spell16</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_17_1.png,ArkhamFull_Image_Spell_17_2.png,ArkhamFull_Image_Spell_17_4.png,ArkhamFull_Image_Spell_17.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_17_1.png">
               <piece>spell17</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_18_1.png,ArkhamFull_Image_Spell_18_2.png,ArkhamFull_Image_Spell_18_4.png,ArkhamFull_Image_Spell_18.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_18_1.png">
               <piece>spell18</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_19_1.png,ArkhamFull_Image_Spell_19_2.png,ArkhamFull_Image_Spell_19_4.png,ArkhamFull_Image_Spell_19.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_19_1.png">
               <piece>spell19</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_20_1.png,ArkhamFull_Image_Spell_20_2.png,ArkhamFull_Image_Spell_20_4.png,ArkhamFull_Image_Spell_20.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_20_1.png">
               <piece>spell20</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_21_1.png,ArkhamFull_Image_Spell_21_2.png,ArkhamFull_Image_Spell_21_4.png,ArkhamFull_Image_Spell_21.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_21_1.png">
               <piece>spell21</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_22_1.png,ArkhamFull_Image_Spell_22_2.png,ArkhamFull_Image_Spell_22_4.png,ArkhamFull_Image_Spell_22.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_22_1.png">
               <piece>spell22</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_23_1.png,ArkhamFull_Image_Spell_23_2.png,ArkhamFull_Image_Spell_23_4.png,ArkhamFull_Image_Spell_23.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_23_1.png">
               <piece>spell23</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_24_1.png,ArkhamFull_Image_Spell_24_2.png,ArkhamFull_Image_Spell_24_4.png,ArkhamFull_Image_Spell_24.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_24_1.png">
               <piece>spell24</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_25_1.png,ArkhamFull_Image_Spell_25_2.png,ArkhamFull_Image_Spell_25_4.png,ArkhamFull_Image_Spell_25.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_25_1.png">
               <piece>spell25</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_26_1.png,ArkhamFull_Image_Spell_26_2.png,ArkhamFull_Image_Spell_26_4.png,ArkhamFull_Image_Spell_26.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_26_1.png">
               <piece>spell26</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_27_1.png,ArkhamFull_Image_Spell_27_2.png,ArkhamFull_Image_Spell_27_4.png,ArkhamFull_Image_Spell_27.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_27_1.png">
               <piece>spell27</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_28_1.png,ArkhamFull_Image_Spell_28_2.png,ArkhamFull_Image_Spell_28_4.png,ArkhamFull_Image_Spell_28.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_28_1.png">
               <piece>spell28</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_29_1.png,ArkhamFull_Image_Spell_29_2.png,ArkhamFull_Image_Spell_29_4.png,ArkhamFull_Image_Spell_29.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_29_1.png">
               <piece>spell29</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_30_1.png,ArkhamFull_Image_Spell_30_2.png,ArkhamFull_Image_Spell_30_4.png,ArkhamFull_Image_Spell_30.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_30_1.png">
               <piece>spell30</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_31_1.png,ArkhamFull_Image_Spell_31_2.png,ArkhamFull_Image_Spell_31_4.png,ArkhamFull_Image_Spell_31.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_31_1.png">
               <piece>spell31</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_32_1.png,ArkhamFull_Image_Spell_32_2.png,ArkhamFull_Image_Spell_32_4.png,ArkhamFull_Image_Spell_32.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_32_1.png">
               <piece>spell32</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_33_1.png,ArkhamFull_Image_Spell_33_2.png,ArkhamFull_Image_Spell_33_4.png,ArkhamFull_Image_Spell_33.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_33_1.png">
               <piece>spell33</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_34_1.png,ArkhamFull_Image_Spell_34_2.png,ArkhamFull_Image_Spell_34_4.png,ArkhamFull_Image_Spell_34.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_34_1.png">
               <piece>spell34</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_35_1.png,ArkhamFull_Image_Spell_35_2.png,ArkhamFull_Image_Spell_35_4.png,ArkhamFull_Image_Spell_35.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_35_1.png">
               <piece>spell35</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_36_1.png,ArkhamFull_Image_Spell_36_2.png,ArkhamFull_Image_Spell_36_4.png,ArkhamFull_Image_Spell_36.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_36_1.png">
               <piece>spell36</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_37_1.png,ArkhamFull_Image_Spell_37_2.png,ArkhamFull_Image_Spell_37_4.png,ArkhamFull_Image_Spell_37.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_37_1.png">
               <piece>spell37</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_38_1.png,ArkhamFull_Image_Spell_38_2.png,ArkhamFull_Image_Spell_38_4.png,ArkhamFull_Image_Spell_38.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_38_1.png">
               <piece>spell38</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_39_1.png,ArkhamFull_Image_Spell_39_2.png,ArkhamFull_Image_Spell_39_4.png,ArkhamFull_Image_Spell_39.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_39_1.png">
               <piece>spell39</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_40_1.png,ArkhamFull_Image_Spell_40_2.png,ArkhamFull_Image_Spell_40_4.png,ArkhamFull_Image_Spell_40.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_40_1.png">
               <piece>spell40</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_41_1.png,ArkhamFull_Image_Spell_41_2.png,ArkhamFull_Image_Spell_41_4.png,ArkhamFull_Image_Spell_41.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_41_1.png">
               <piece>spell41</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_42_1.png,ArkhamFull_Image_Spell_42_2.png,ArkhamFull_Image_Spell_42_4.png,ArkhamFull_Image_Spell_42.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_42_1.png">
               <piece>spell42</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_43_1.png,ArkhamFull_Image_Spell_43_2.png,ArkhamFull_Image_Spell_43_4.png,ArkhamFull_Image_Spell_43.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_43_1.png">
               <piece>spell43</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_44_1.png,ArkhamFull_Image_Spell_44_2.png,ArkhamFull_Image_Spell_44_4.png,ArkhamFull_Image_Spell_44.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_44_1.png">
               <piece>spell44</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_45_1.png,ArkhamFull_Image_Spell_45_2.png,ArkhamFull_Image_Spell_45_4.png,ArkhamFull_Image_Spell_45.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_45_1.png">
               <piece>spell45</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_46_1.png,ArkhamFull_Image_Spell_46_2.png,ArkhamFull_Image_Spell_46_4.png,ArkhamFull_Image_Spell_46.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_46_1.png">
               <piece>spell46</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_47_1.png,ArkhamFull_Image_Spell_47_2.png,ArkhamFull_Image_Spell_47_4.png,ArkhamFull_Image_Spell_47.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_47_1.png">
               <piece>spell47</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_48_1.png,ArkhamFull_Image_Spell_48_2.png,ArkhamFull_Image_Spell_48_4.png,ArkhamFull_Image_Spell_48.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_48_1.png">
               <piece>spell48</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_49_1.png,ArkhamFull_Image_Spell_49_2.png,ArkhamFull_Image_Spell_49_4.png,ArkhamFull_Image_Spell_49.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_49_1.png">
               <piece>spell49</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_50_1.png,ArkhamFull_Image_Spell_50_2.png,ArkhamFull_Image_Spell_50_4.png,ArkhamFull_Image_Spell_50.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_50_1.png">
               <piece>spell50</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_51_1.png,ArkhamFull_Image_Spell_51_2.png,ArkhamFull_Image_Spell_51_4.png,ArkhamFull_Image_Spell_51.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_51_1.png">
               <piece>spell51</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_52_1.png,ArkhamFull_Image_Spell_52_2.png,ArkhamFull_Image_Spell_52_4.png,ArkhamFull_Image_Spell_52.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_52_1.png">
               <piece>spell52</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_53_1.png,ArkhamFull_Image_Spell_53_2.png,ArkhamFull_Image_Spell_53_4.png,ArkhamFull_Image_Spell_53.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_53_1.png">
               <piece>spell53</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_54_1.png,ArkhamFull_Image_Spell_54_2.png,ArkhamFull_Image_Spell_54_4.png,ArkhamFull_Image_Spell_54.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_54_1.png">
               <piece>spell54</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_55_1.png,ArkhamFull_Image_Spell_55_2.png,ArkhamFull_Image_Spell_55_4.png,ArkhamFull_Image_Spell_55.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_55_1.png">
               <piece>spell55</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_56_1.png,ArkhamFull_Image_Spell_56_2.png,ArkhamFull_Image_Spell_56_4.png,ArkhamFull_Image_Spell_56.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_56_1.png">
               <piece>spell56</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_57_1.png,ArkhamFull_Image_Spell_57_2.png,ArkhamFull_Image_Spell_57_4.png,ArkhamFull_Image_Spell_57.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_57_1.png">
               <piece>spell57</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_58_1.png,ArkhamFull_Image_Spell_58_2.png,ArkhamFull_Image_Spell_58_4.png,ArkhamFull_Image_Spell_58.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_58_1.png">
               <piece>spell58</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_59_1.png,ArkhamFull_Image_Spell_59_2.png,ArkhamFull_Image_Spell_59_4.png,ArkhamFull_Image_Spell_59.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_59_1.png">
               <piece>spell59</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_60_1.png,ArkhamFull_Image_Spell_60_2.png,ArkhamFull_Image_Spell_60_4.png,ArkhamFull_Image_Spell_60.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_60_1.png">
               <piece>spell60</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_61_1.png,ArkhamFull_Image_Spell_61_2.png,ArkhamFull_Image_Spell_61_4.png,ArkhamFull_Image_Spell_61.png">
+            <sides paths="ArkhamFull_Image_Spell_Back_1.png,ArkhamFull_Image_Spell_61_1.png">
               <piece>spell61</piece>
             </sides>
           </initial_location>
@@ -6302,52 +6314,52 @@
       <piece_type type="ally">
         <triple_tap action="move_piece" args="location_main_ally">
           <initial_location name="location_main_ally">
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_1_1.png,ArkhamFull_Image_Ally_1_2.png,ArkhamFull_Image_Ally_1_4.png,ArkhamFull_Image_Ally_1.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_1_1.png">
               <piece>ally1</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_2_1.png,ArkhamFull_Image_Ally_2_2.png,ArkhamFull_Image_Ally_2_4.png,ArkhamFull_Image_Ally_2.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_2_1.png">
               <piece>ally2</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_3_1.png,ArkhamFull_Image_Ally_3_2.png,ArkhamFull_Image_Ally_3_4.png,ArkhamFull_Image_Ally_3.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_3_1.png">
               <piece>ally3</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_4_1.png,ArkhamFull_Image_Ally_4_2.png,ArkhamFull_Image_Ally_4_4.png,ArkhamFull_Image_Ally_4.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_4_1.png">
               <piece>ally4</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_5_1.png,ArkhamFull_Image_Ally_5_2.png,ArkhamFull_Image_Ally_5_4.png,ArkhamFull_Image_Ally_5.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_5_1.png">
               <piece>ally5</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_6_1.png,ArkhamFull_Image_Ally_6_2.png,ArkhamFull_Image_Ally_6_4.png,ArkhamFull_Image_Ally_6.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_6_1.png">
               <piece>ally6</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_7_1.png,ArkhamFull_Image_Ally_7_2.png,ArkhamFull_Image_Ally_7_4.png,ArkhamFull_Image_Ally_7.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_7_1.png">
               <piece>ally7</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_8_1.png,ArkhamFull_Image_Ally_8_2.png,ArkhamFull_Image_Ally_8_4.png,ArkhamFull_Image_Ally_8.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_8_1.png">
               <piece>ally8</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_9_1.png,ArkhamFull_Image_Ally_9_2.png,ArkhamFull_Image_Ally_9_4.png,ArkhamFull_Image_Ally_9.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_9_1.png">
               <piece>ally9</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_10_1.png,ArkhamFull_Image_Ally_10_2.png,ArkhamFull_Image_Ally_10_4.png,ArkhamFull_Image_Ally_10.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_10_1.png">
               <piece>ally10</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_11_1.png,ArkhamFull_Image_Ally_11_2.png,ArkhamFull_Image_Ally_11_4.png,ArkhamFull_Image_Ally_11.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_11_1.png">
               <piece>ally11</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_12_1.png,ArkhamFull_Image_Ally_12_2.png,ArkhamFull_Image_Ally_12_4.png,ArkhamFull_Image_Ally_12.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_12_1.png">
               <piece>ally12</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_13_1.png,ArkhamFull_Image_Ally_13_2.png,ArkhamFull_Image_Ally_13_4.png,ArkhamFull_Image_Ally_13.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_13_1.png">
               <piece>ally13</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_14_1.png,ArkhamFull_Image_Ally_14_2.png,ArkhamFull_Image_Ally_14_4.png,ArkhamFull_Image_Ally_14.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_14_1.png">
               <piece>ally14</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_15_1.png,ArkhamFull_Image_Ally_15_2.png,ArkhamFull_Image_Ally_15_4.png,ArkhamFull_Image_Ally_15.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_15_1.png">
               <piece>ally15</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_16_1.png,ArkhamFull_Image_Ally_16_2.png,ArkhamFull_Image_Ally_16_4.png,ArkhamFull_Image_Ally_16.png">
+            <sides paths="ArkhamFull_Image_Ally_Back_1.png,ArkhamFull_Image_Ally_16_1.png">
               <piece>ally16</piece>
             </sides>
           </initial_location>
@@ -6358,76 +6370,76 @@
       <piece_type type="skill">
         <triple_tap action="move_piece" args="location_main_skill">
           <initial_location name="location_main_skill">
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Conceal_1.png,ArkhamFull_Image_Mini_Skill_Conceal_2.png,ArkhamFull_Image_Mini_Skill_Conceal_4.png,ArkhamFull_Image_Mini_Skill_Conceal.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Conceal_1.png">
               <piece>skill1</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Dodge_1.png,ArkhamFull_Image_Mini_Skill_Dodge_2.png,ArkhamFull_Image_Mini_Skill_Dodge_4.png,ArkhamFull_Image_Mini_Skill_Dodge.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Dodge_1.png">
               <piece>skill2</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_ExpertOccultist_1.png,ArkhamFull_Image_Mini_Skill_ExpertOccultist_2.png,ArkhamFull_Image_Mini_Skill_ExpertOccultist_4.png,ArkhamFull_Image_Mini_Skill_ExpertOccultist.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_ExpertOccultist_1.png">
               <piece>skill3</piece>
               <piece>skill3a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Fight_1.png,ArkhamFull_Image_Mini_Skill_Fight_2.png,ArkhamFull_Image_Mini_Skill_Fight_4.png,ArkhamFull_Image_Mini_Skill_Fight.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Fight_1.png">
               <piece>skill4</piece>
               <piece>skill4a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Fisticuffs_1.png,ArkhamFull_Image_Mini_Skill_Fisticuffs_2.png,ArkhamFull_Image_Mini_Skill_Fisticuffs_4.png,ArkhamFull_Image_Mini_Skill_Fisticuffs.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Fisticuffs_1.png">
               <piece>skill5</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Grapple_1.png,ArkhamFull_Image_Mini_Skill_Grapple_2.png,ArkhamFull_Image_Mini_Skill_Grapple_4.png,ArkhamFull_Image_Mini_Skill_Grapple.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Grapple_1.png">
               <piece>skill6</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Hide_1.png,ArkhamFull_Image_Mini_Skill_Hide_2.png,ArkhamFull_Image_Mini_Skill_Hide_4.png,ArkhamFull_Image_Mini_Skill_Hide.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Hide_1.png">
               <piece>skill7</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_LibraryUse_1.png,ArkhamFull_Image_Mini_Skill_LibraryUse_2.png,ArkhamFull_Image_Mini_Skill_LibraryUse_4.png,ArkhamFull_Image_Mini_Skill_LibraryUse.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_LibraryUse_1.png">
               <piece>skill8</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Lore_1.png,ArkhamFull_Image_Mini_Skill_Lore_2.png,ArkhamFull_Image_Mini_Skill_Lore_4.png,ArkhamFull_Image_Mini_Skill_Lore.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Lore_1.png">
               <piece>skill9</piece>
               <piece>skill9a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Luck_1.png,ArkhamFull_Image_Mini_Skill_Luck_2.png,ArkhamFull_Image_Mini_Skill_Luck_4.png,ArkhamFull_Image_Mini_Skill_Luck.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Luck_1.png">
               <piece>skill10</piece>
               <piece>skill10a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Marksman_1.png,ArkhamFull_Image_Mini_Skill_Marksman_2.png,ArkhamFull_Image_Mini_Skill_Marksman_4.png,ArkhamFull_Image_Mini_Skill_Marksman.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Marksman_1.png">
               <piece>skill11</piece>
               <piece>skill11a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_MysticGift_1.png,ArkhamFull_Image_Mini_Skill_MysticGift_2.png,ArkhamFull_Image_Mini_Skill_MysticGift_4.png,ArkhamFull_Image_Mini_Skill_MysticGift.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_MysticGift_1.png">
               <piece>skill12</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_MythosLore_1.png,ArkhamFull_Image_Mini_Skill_MythosLore_2.png,ArkhamFull_Image_Mini_Skill_MythosLore_4.png,ArkhamFull_Image_Mini_Skill_MythosLore.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_MythosLore_1.png">
               <piece>skill13</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Psychology_1.png,ArkhamFull_Image_Mini_Skill_Psychology_2.png,ArkhamFull_Image_Mini_Skill_Psychology_4.png,ArkhamFull_Image_Mini_Skill_Psychology.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Psychology_1.png">
               <piece>skill14</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Sneak_1.png,ArkhamFull_Image_Mini_Skill_Sneak_2.png,ArkhamFull_Image_Mini_Skill_Sneak_4.png,ArkhamFull_Image_Mini_Skill_Sneak.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Sneak_1.png">
               <piece>skill15</piece>
               <piece>skill15a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_SpotHidden_1.png,ArkhamFull_Image_Mini_Skill_SpotHidden_2.png,ArkhamFull_Image_Mini_Skill_SpotHidden_4.png,ArkhamFull_Image_Mini_Skill_SpotHidden.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_SpotHidden_1.png">
               <piece>skill16</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Stealth_1.png,ArkhamFull_Image_Mini_Skill_Stealth_2.png,ArkhamFull_Image_Mini_Skill_Stealth_4.png,ArkhamFull_Image_Mini_Skill_Stealth.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Stealth_1.png">
               <piece>skill17</piece>
               <piece>skill17a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_StrongWill_1.png,ArkhamFull_Image_Mini_Skill_StrongWill_2.png,ArkhamFull_Image_Mini_Skill_StrongWill_4.png,ArkhamFull_Image_Mini_Skill_StrongWill.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_StrongWill_1.png">
               <piece>skill18</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Speed_1.png,ArkhamFull_Image_Mini_Skill_Speed_2.png,ArkhamFull_Image_Mini_Skill_Speed_4.png,ArkhamFull_Image_Mini_Skill_Speed.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Speed_1.png">
               <piece>skill19</piece>
               <piece>skill19a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Will_1.png,ArkhamFull_Image_Mini_Skill_Will_2.png,ArkhamFull_Image_Mini_Skill_Will_4.png,ArkhamFull_Image_Mini_Skill_Will.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Will_1.png">
               <piece>skill20</piece>
               <piece>skill20a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Bravery_1.png,ArkhamFull_Image_Mini_Skill_Bravery_2.png,ArkhamFull_Image_Mini_Skill_Bravery_4.png,ArkhamFull_Image_Mini_Skill_Bravery.png">
+            <sides paths="ArkhamFull_Image_Mini_Skill_Back_1.png,ArkhamFull_Image_Mini_Skill_Bravery_1.png">
               <piece>skill21</piece>
               <piece>skill21a</piece>
             </sides>
@@ -6439,51 +6451,51 @@
       <piece_type type="injury">
         <triple_tap action="move_piece" args="location_main_injury">
           <initial_location name="location_main_injury">
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Back_1.png,ArkhamFull_Image_Mini_Injury_Back_2.png,ArkhamFull_Image_Mini_Injury_Back_4.png,ArkhamFull_Image_Mini_Injury_Back.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Back_1.png">
               <piece>injury1</piece>
               <piece>injury1a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_BrokenHand_1.png,ArkhamFull_Image_Mini_Injury_BrokenHand_2.png,ArkhamFull_Image_Mini_Injury_BrokenHand_4.png,ArkhamFull_Image_Mini_Injury_BrokenHand.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_BrokenHand_1.png">
               <piece>injury2</piece>
               <piece>injury2a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Concussion_1.png,ArkhamFull_Image_Mini_Injury_Concussion_2.png,ArkhamFull_Image_Mini_Injury_Concussion_4.png,ArkhamFull_Image_Mini_Injury_Concussion.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Concussion_1.png">
               <piece>injury3</piece>
               <piece>injury3a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Consumption_1.png,ArkhamFull_Image_Mini_Injury_Consumption_2.png,ArkhamFull_Image_Mini_Injury_Consumption_4.png,ArkhamFull_Image_Mini_Injury_Consumption.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Consumption_1.png">
               <piece>injury4</piece>
               <piece>injury4a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_DoubleVision_1.png,ArkhamFull_Image_Mini_Injury_DoubleVision_2.png,ArkhamFull_Image_Mini_Injury_DoubleVision_4.png,ArkhamFull_Image_Mini_Injury_DoubleVision.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_DoubleVision_1.png">
               <piece>injury5</piece>
               <piece>injury5a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_HeadWound_1.png,ArkhamFull_Image_Mini_Injury_HeadWound_2.png,ArkhamFull_Image_Mini_Injury_HeadWound_4.png,ArkhamFull_Image_Mini_Injury_HeadWound.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_HeadWound_1.png">
               <piece>injury6</piece>
               <piece>injury6a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_HearingLoss_1.png,ArkhamFull_Image_Mini_Injury_HearingLoss_2.png,ArkhamFull_Image_Mini_Injury_HearingLoss_4.png,ArkhamFull_Image_Mini_Injury_HearingLoss.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_HearingLoss_1.png">
               <piece>injury7</piece>
               <piece>injury7a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_InjuredArm_1.png,ArkhamFull_Image_Mini_Injury_InjuredArm_2.png,ArkhamFull_Image_Mini_Injury_InjuredArm_4.png,ArkhamFull_Image_Mini_Injury_InjuredArm.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_InjuredArm_1.png">
               <piece>injury8</piece>
               <piece>injury8a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Jinxed_1.png,ArkhamFull_Image_Mini_Injury_Jinxed_2.png,ArkhamFull_Image_Mini_Injury_Jinxed_4.png,ArkhamFull_Image_Mini_Injury_Jinxed.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Jinxed_1.png">
               <piece>injury9</piece>
               <piece>injury9a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_MemoryLoss_1.png,ArkhamFull_Image_Mini_Injury_MemoryLoss_2.png,ArkhamFull_Image_Mini_Injury_MemoryLoss_4.png,ArkhamFull_Image_Mini_Injury_MemoryLoss.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_MemoryLoss_1.png">
               <piece>injury10</piece>
               <piece>injury10a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_SprainedAnkle_1.png,ArkhamFull_Image_Mini_Injury_SprainedAnkle_2.png,ArkhamFull_Image_Mini_Injury_SprainedAnkle_4.png,ArkhamFull_Image_Mini_Injury_SprainedAnkle.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_SprainedAnkle_1.png">
               <piece>injury11</piece>
               <piece>injury11a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Tainted_1.png,ArkhamFull_Image_Mini_Injury_Tainted_2.png,ArkhamFull_Image_Mini_Injury_Tainted_4.png,ArkhamFull_Image_Mini_Injury_Tainted.png">
+            <sides paths="ArkhamFull_Image_Mini_Injury_BackCard_1.png,ArkhamFull_Image_Mini_Injury_Tainted_1.png">
               <piece>injury12</piece>
               <piece>injury12a</piece>
             </sides>
@@ -6495,51 +6507,51 @@
       <piece_type type="madness">
         <triple_tap action="move_piece" args="location_main_madness">
           <initial_location name="location_main_madness">
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Addiction_1.png,ArkhamFull_Image_Mini_Madness_Addiction_2.png,ArkhamFull_Image_Mini_Madness_Addiction_4.png,ArkhamFull_Image_Mini_Madness_Addiction.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Addiction_1.png">
               <piece>madness1</piece>
               <piece>madness1a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Agrophobia_1.png,ArkhamFull_Image_Mini_Madness_Agrophobia_2.png,ArkhamFull_Image_Mini_Madness_Agrophobia_4.png,ArkhamFull_Image_Mini_Madness_Agrophobia.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Agrophobia_1.png">
               <piece>madness2</piece>
               <piece>madness2a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Amnesia_1.png,ArkhamFull_Image_Mini_Madness_Amnesia_2.png,ArkhamFull_Image_Mini_Madness_Amnesia_4.png,ArkhamFull_Image_Mini_Madness_Amnesia.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Amnesia_1.png">
               <piece>madness3</piece>
               <piece>madness3a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Claustrophobia_1.png,ArkhamFull_Image_Mini_Madness_Claustrophobia_2.png,ArkhamFull_Image_Mini_Madness_Claustrophobia_4.png,ArkhamFull_Image_Mini_Madness_Claustrophobia.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Claustrophobia_1.png">
               <piece>madness4</piece>
               <piece>madness4a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Delirium_1.png,ArkhamFull_Image_Mini_Madness_Delirium_2.png,ArkhamFull_Image_Mini_Madness_Delirium_4.png,ArkhamFull_Image_Mini_Madness_Delirium.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Delirium_1.png">
               <piece>madness5</piece>
               <piece>madness5a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Depression_1.png,ArkhamFull_Image_Mini_Madness_Depression_2.png,ArkhamFull_Image_Mini_Madness_Depression_4.png,ArkhamFull_Image_Mini_Madness_Depression.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Depression_1.png">
               <piece>madness6</piece>
               <piece>madness6a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Hysteria_1.png,ArkhamFull_Image_Mini_Madness_Hysteria_2.png,ArkhamFull_Image_Mini_Madness_Hysteria_4.png,ArkhamFull_Image_Mini_Madness_Hysteria.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Hysteria_1.png">
               <piece>madness7</piece>
               <piece>madness7a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Mania_1.png,ArkhamFull_Image_Mini_Madness_Mania_2.png,ArkhamFull_Image_Mini_Madness_Mania_4.png,ArkhamFull_Image_Mini_Madness_Mania.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Mania_1.png">
               <piece>madness8</piece>
               <piece>madness8a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Necrophobia_1.png,ArkhamFull_Image_Mini_Madness_Necrophobia_2.png,ArkhamFull_Image_Mini_Madness_Necrophobia_4.png,ArkhamFull_Image_Mini_Madness_Necrophobia.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Necrophobia_1.png">
               <piece>madness9</piece>
               <piece>madness9a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Paranoia_1.png,ArkhamFull_Image_Mini_Madness_Paranoia_2.png,ArkhamFull_Image_Mini_Madness_Paranoia_4.png,ArkhamFull_Image_Mini_Madness_Paranoia.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Paranoia_1.png">
               <piece>madness10</piece>
               <piece>madness10a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Schizophrenia_1.png,ArkhamFull_Image_Mini_Madness_Schizophrenia_2.png,ArkhamFull_Image_Mini_Madness_Schizophrenia_4.png,ArkhamFull_Image_Mini_Madness_Schizophrenia.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Schizophrenia_1.png">
               <piece>madness11</piece>
               <piece>madness11a</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Xenophobia_1.png,ArkhamFull_Image_Mini_Madness_Xenophobia_2.png,ArkhamFull_Image_Mini_Madness_Xenophobia_4.png,ArkhamFull_Image_Mini_Madness_Xenophobia.png">
+            <sides paths="ArkhamFull_Image_Mini_Madness_Back_1.png,ArkhamFull_Image_Mini_Madness_Xenophobia_1.png">
               <piece>madness12</piece>
               <piece>madness12a</piece>
             </sides>
@@ -6551,7 +6563,7 @@
       <piece_type type="bankloan">
         <triple_tap action="move_piece" args="location_main_bankloan">
           <initial_location name="location_main_bankloan">
-            <sides paths="ArkhamFull_Image_Mini_Special_BankLoan_Back_1.png,ArkhamFull_Image_Mini_Special_BankLoan_1.png,ArkhamFull_Image_Mini_Special_BankLoan_2.png,ArkhamFull_Image_Mini_Special_BankLoan_4.png,ArkhamFull_Image_Mini_Special_BankLoan.png">
+            <sides paths="ArkhamFull_Image_Mini_Special_BankLoan_Back_1.png,ArkhamFull_Image_Mini_Special_BankLoan_1.png">
               <piece>bankloan1</piece>
               <piece>bankloan1a</piece>
               <piece>bankloan1b</piece>
@@ -6569,7 +6581,7 @@
       <piece_type type="blessing">
         <triple_tap action="move_piece" args="location_main_blessing">
           <initial_location name="location_main_blessing">
-            <sides paths="ArkhamFull_Image_Mini_Special_Blessing_Back_1.png,ArkhamFull_Image_Mini_Special_Blessing_1.png,ArkhamFull_Image_Mini_Special_Blessing_2.png,ArkhamFull_Image_Mini_Special_Blessing_4.png,ArkhamFull_Image_Mini_Special_Blessing.png">
+            <sides paths="ArkhamFull_Image_Mini_Special_Blessing_Back_1.png,ArkhamFull_Image_Mini_Special_Blessing_1.png">
               <piece>blessing1</piece>
               <piece>blessing1a</piece>
               <piece>blessing1b</piece>
@@ -6587,7 +6599,7 @@
       <piece_type type="curse">
         <triple_tap action="move_piece" args="location_main_curse">
           <initial_location name="location_main_curse">
-            <sides paths="ArkhamFull_Image_Mini_Special_Curse_Back_1.png,ArkhamFull_Image_Mini_Special_Curse_1.png,ArkhamFull_Image_Mini_Special_Curse_2.png,ArkhamFull_Image_Mini_Special_Curse_4.png,ArkhamFull_Image_Mini_Special_Curse.png">
+            <sides paths="ArkhamFull_Image_Mini_Special_Curse_Back_1.png,ArkhamFull_Image_Mini_Special_Curse_1.png">
               <piece>curse1</piece>
               <piece>curse1a</piece>
               <piece>curse1b</piece>
@@ -6605,7 +6617,7 @@
       <piece_type type="retainer">
         <triple_tap action="move_piece" args="location_main_retainer">
           <initial_location name="location_main_retainer">
-            <sides paths="ArkhamFull_Image_Mini_Special_Retainer_Back_1.png,ArkhamFull_Image_Mini_Special_Retainer_1.png,ArkhamFull_Image_Mini_Special_Retainer_2.png,ArkhamFull_Image_Mini_Special_Retainer_4.png,ArkhamFull_Image_Mini_Special_Retainer.png">
+            <sides paths="ArkhamFull_Image_Mini_Special_Retainer_Back_1.png,ArkhamFull_Image_Mini_Special_Retainer_1.png">
               <piece>retainer1</piece>
               <piece>retainer1a</piece>
               <piece>retainer1b</piece>
@@ -6623,7 +6635,7 @@
       <piece_type type="silvertwilight">
         <triple_tap action="move_piece" args="location_main_silvertwilight">
           <initial_location name="location_main_silvertwilight">
-            <sides paths="ArkhamFull_Image_Mini_Special_SilverTwilight_Back_1.png,ArkhamFull_Image_Mini_Special_SilverTwilight_1.png,ArkhamFull_Image_Mini_Special_SilverTwilight_2.png,ArkhamFull_Image_Mini_Special_SilverTwilight_4.png,ArkhamFull_Image_Mini_Special_SilverTwilight.png">
+            <sides paths="ArkhamFull_Image_Mini_Special_SilverTwilight_Back_1.png,ArkhamFull_Image_Mini_Special_SilverTwilight_1.png">
               <piece>silvertwilight1</piece>
               <piece>silvertwilight1a</piece>
               <piece>silvertwilight1b</piece>
@@ -6641,13 +6653,13 @@
       <piece_type type="deputy">
         <triple_tap action="move_piece" args="location_main_deputy">
           <initial_location name="location_main_deputy">
-            <sides paths="ArkhamFull_Image_Mini_Special_Deputy_Back_1.png,ArkhamFull_Image_Mini_Special_Deputy_1.png,ArkhamFull_Image_Mini_Special_Deputy_2.png,ArkhamFull_Image_Mini_Special_Deputy_4.png,ArkhamFull_Image_Mini_Special_Deputy.png">
+            <sides paths="ArkhamFull_Image_Mini_Special_Deputy_Back_1.png,ArkhamFull_Image_Mini_Special_Deputy_1.png">
               <piece>deputy1</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Special_Deputy_Back_1.png,ArkhamFull_Image_Mini_Special_DeputysRevolver_1.png,ArkhamFull_Image_Mini_Special_DeputysRevolver_2.png,ArkhamFull_Image_Mini_Special_DeputysRevolver_4.png,ArkhamFull_Image_Mini_Special_DeputysRevolver.png">
+            <sides paths="ArkhamFull_Image_Mini_Special_Deputy_Back_1.png,ArkhamFull_Image_Mini_Special_DeputysRevolver_1.png">
               <piece>deputy2</piece>
             </sides>
-            <sides paths="ArkhamFull_Image_Mini_Special_Deputy_Back_1.png,ArkhamFull_Image_Mini_Special_PatrolWagon_1.png,ArkhamFull_Image_Mini_Special_PatrolWagon_2.png,ArkhamFull_Image_Mini_Special_DeputysRevolver.png">
+            <sides paths="ArkhamFull_Image_Mini_Special_Deputy_Back_1.png,ArkhamFull_Image_Mini_Special_PatrolWagon_1.png">
               <piece>deputy3</piece>
             </sides>
           </initial_location>
