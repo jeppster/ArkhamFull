@@ -6995,7 +6995,7 @@
             </single_tap>
             <single_tap action="move_piece" args="location_monster_1,Mi-GoBack">
               <points value="1">
-                <sides paths="ArkhamFull_Image_Monster_Mi-Go_1.png,ArkhamFull_Image_Monster_Mi-GoBack_1.png,ArkhamFull_Image_Monster_Mi-GoBack_2.png,ArkhamFull_Image_Monster_Mi-GoBack_4.png,ArkhamFull_Image_Monster_Mi-GoBack.png">
+                <sides paths="ArkhamFull_Image_Monster_Mi-Go_1.png,ArkhamFull_Image_Monster_Mi-GoBack_1.png">
                   <piece>Mi-Go1</piece>
                   <piece>Mi-Go2</piece>
                   <piece>Mi-Go3</piece>
