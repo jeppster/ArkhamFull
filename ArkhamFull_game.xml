@@ -50,24 +50,26 @@
       <size width="60" height="60">
         <location_display type="count" show_empty="0">
           <location_in_action action="set_side" args="1">
-            <corner_coord board="1" x="673" y="260">
-              <location>location_player1_gate</location>
-            </corner_coord>
-          </location_in_action>
-          <location_in_action action="set_side" args="2">
-            <corner_coord board="2" x="289" y="100">
-              <location>location_player2_gate</location>
-            </corner_coord>
-          </location_in_action>
-          <location_in_action action="set_side" args="4">
-            <corner_coord board="3" x="260" y="289">
-              <location>location_player3_gate</location>
-            </corner_coord>
-          </location_in_action>
-          <location_in_action action="set_side" args="3">
-            <corner_coord board="4" x="100" y="673">
-              <location>location_player4_gate</location>
-            </corner_coord>
+            <location_in_action action="set_rotation" args="0">
+              <corner_coord board="1" x="673" y="260">
+                <location>location_player1_gate</location>
+              </corner_coord>
+            </location_in_action>
+            <location_in_action action="set_rotation" args="180">
+              <corner_coord board="2" x="289" y="100">
+                <location>location_player2_gate</location>
+              </corner_coord>
+            </location_in_action>
+            <location_in_action action="set_rotation" args="-90">
+              <corner_coord board="3" x="260" y="289">
+                <location>location_player3_gate</location>
+              </corner_coord>
+            </location_in_action>
+            <location_in_action action="set_rotation" args="90">
+              <corner_coord board="4" x="100" y="673">
+                <location>location_player4_gate</location>
+              </corner_coord>
+            </location_in_action>
           </location_in_action>
         </location_display>
       </size>
@@ -721,9 +723,11 @@
     <location_type type="queue">
       <valid_types types="gate">
         <location_in_action action="set_side" args="0">
-          <corner_coord board="0" x="8" y="615">
-            <location>location_main_gate</location>
-          </corner_coord>
+          <location_in_action action="set_rotation" args="0">
+            <corner_coord board="0" x="8" y="615">
+              <location>location_main_gate</location>
+            </corner_coord>
+          </location_in_action>
         </location_in_action>
       </valid_types>
     </location_type>
@@ -6650,38 +6654,40 @@
     <piece_type type="gate">
       <triple_tap action="move_piece" args="location_main_gate">
         <initial_location name="location_main_gate">
-          <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Abyss_1.png,ArkhamFull_Image_Gate_Abyss_2.png,ArkhamFull_Image_Gate_Abyss_4.png,ArkhamFull_Image_Gate_Abyss.png">
-            <piece>abyss1</piece>
-            <piece>abyss1a</piece>
-          </sides>
-          <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_AnotherDimension_1.png,ArkhamFull_Image_Gate_AnotherDimension_2.png,ArkhamFull_Image_Gate_AnotherDimension_4.png,ArkhamFull_Image_Gate_AnotherDimension.png">
-            <piece>ad1</piece>
-            <piece>ad1a</piece>
-          </sides>
-          <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Celeano_1.png,ArkhamFull_Image_Gate_Celeano_2.png,ArkhamFull_Image_Gate_Celeano_4.png,ArkhamFull_Image_Gate_Celeano.png">
-            <piece>Celeano1</piece>
-            <piece>Celeano1a</piece>
-          </sides>
-          <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Dreamlands_1.png,ArkhamFull_Image_Gate_Dreamlands_2.png,ArkhamFull_Image_Gate_Dreamlands_4.png,ArkhamFull_Image_Gate_Dreamlands.png">
-            <piece>Dreamlands1</piece>
-            <piece>Dreamlands1a</piece>
-          </sides>
-          <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Leng_1.png,ArkhamFull_Image_Gate_Leng_2.png,ArkhamFull_Image_Gate_Leng_4.png,ArkhamFull_Image_Gate_Leng.png">
-            <piece>Leng1</piece>
-            <piece>Leng1a</piece>
-          </sides>
-          <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Race_1.png,ArkhamFull_Image_Gate_Race_2.png,ArkhamFull_Image_Gate_Race_4.png,ArkhamFull_Image_Gate_Race.png">
-            <piece>Race1</piece>
-            <piece>Race1a</piece>
-          </sides>
-          <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Rlyeh_1.png,ArkhamFull_Image_Gate_Rlyeh_2.png,ArkhamFull_Image_Gate_Rlyeh_4.png,ArkhamFull_Image_Gate_Rlyeh.png">
-            <piece>Rlyeh1</piece>
-            <piece>Rlyeh1a</piece>
-          </sides>
-          <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Yuggoth_1.png,ArkhamFull_Image_Gate_Yuggoth_2.png,ArkhamFull_Image_Gate_Yuggoth_4.png,ArkhamFull_Image_Gate_Yuggoth.png">
-            <piece>Yuggoth1</piece>
-            <piece>Yuggoth1a</piece>
-          </sides>
+          <initial_rotation value="0">
+            <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Abyss_1.png">
+              <piece>abyss1</piece>
+              <piece>abyss1a</piece>
+            </sides>
+            <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_AnotherDimension_1.png">
+              <piece>ad1</piece>
+              <piece>ad1a</piece>
+            </sides>
+            <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Celeano_1.png">
+              <piece>Celeano1</piece>
+              <piece>Celeano1a</piece>
+            </sides>
+            <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Dreamlands_1.png">
+              <piece>Dreamlands1</piece>
+              <piece>Dreamlands1a</piece>
+            </sides>
+            <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Leng_1.png">
+              <piece>Leng1</piece>
+              <piece>Leng1a</piece>
+            </sides>
+            <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Race_1.png">
+              <piece>Race1</piece>
+              <piece>Race1a</piece>
+            </sides>
+            <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Rlyeh_1.png">
+              <piece>Rlyeh1</piece>
+              <piece>Rlyeh1a</piece>
+            </sides>
+            <sides paths="ArkhamFull_Image_Gate_Back_1.png,ArkhamFull_Image_Gate_Yuggoth_1.png">
+              <piece>Yuggoth1</piece>
+              <piece>Yuggoth1a</piece>
+            </sides>
+          </initial_rotation>
         </initial_location>
       </triple_tap>
     </piece_type>
