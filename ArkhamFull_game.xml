@@ -1135,6 +1135,17 @@
         </corner_coord>
       </size>
     </valid_types>
+    <valid_types types="monster,monsterspecial">
+      <size width="118" height="50">
+        <corner_coord board="0" x="836" y="562">
+          <location_in_action action="set_side" args="0">
+            <location_in_action action="set_rotation" args="0">
+              <location>location_main_freeskyoutskirts</location>
+            </location_in_action>
+          </location_in_action>
+        </corner_coord>
+      </size>
+    </valid_types>
   </location_type>
   <!-- END Main Board Free Locations -->
   <!-- End Player piece board locations -->
