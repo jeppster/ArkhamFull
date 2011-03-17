@@ -1094,7 +1094,7 @@
               <location>location_main_freegate</location>
             </location_in_action>
           </valid_types>
-          <valid_types types="monster">
+          <valid_types types="monster,monsterspecial">
             <location_in_action action="set_side" args="0">
               <location>location_main_freemonster</location>
             </location_in_action>
