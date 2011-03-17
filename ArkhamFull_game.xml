@@ -760,8 +760,8 @@
     <location_in_action action="set_side" args="0">
       <location_in_action action="set_rotation" args="0"><location_type type="stack"><valid_types types="common,unique,spell,ally,skill,injury,madness,bankloan,blessing,curse,retainer,silvertwilight,deputy,gate,monster,monsterspecial"><corner_coord board="0" x="493" y="670"><location>location_main_discard</location></corner_coord></valid_types></location_type></location_in_action>
     </location_in_action>
-    <!-- End Board discard location -->
   </size>
+  <!-- End Board discard location -->
   <!-- Board monster back locations -->
   <size width="110" height="110">
     <location_type type="cell">
