@@ -1,10 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <moves xml_version="1.2">
   <!-- Pick investigator for each player -->
-	<action type="quad_tap_name" name="invest1_1"></action>
+  <action type="quad_tap_name" name="invest1_1"></action>
   <action type="quad_tap_name" name="invest1_2"></action>
   <action type="quad_tap_name" name="invest1_3"></action>
   <action type="quad_tap_name" name="invest1_4"></action>
-
   <!-- Shuffle mini-cards -->
   <action type="quad_tap_name" name="common1"></action>
   <action type="quad_tap_name" name="unique1"></action>
@@ -14,27 +14,24 @@
   <action type="quad_tap_name" name="injury1"></action>
   <action type="quad_tap_name" name="madness1"></action>
   <action type="quad_tap_name" name="abyss1"></action>
-  
   <!-- Shuffle mythos cards -->
   <action type="quad_tap_name" name="piece_my1"></action>
   <action type="quad_tap_name" name="piece_ao1"></action>
-  
   <!-- Player Tokens moving to their boards -->
-  <action type="move_piece" x="460" y="671" board="0" to_x="978" to_y="261" to_board="1"></action>
-  <action type="move_piece" x="460" y="703" board="0" to_x="6" to_y="121" to_board="2"></action>
-  <action type="move_piece" x="460" y="735" board="0" to_x="261" to_y="6" to_board="3"></action>
-  <action type="move_piece" x="392" y="735" board="0" to_x="121" to_y="978" to_board="4"></action>
-  
+  <action type="move_piece" x="919" y="1341" board="0" to_x="978" to_y="261" to_board="1"></action>
+  <action type="move_piece" x="919" y="1405" board="0" to_x="6" to_y="121" to_board="2"></action>
+  <action type="move_piece" x="919" y="1469" board="0" to_x="261" to_y="6" to_board="3"></action>
+  <action type="move_piece" x="783" y="1469" board="0" to_x="121" to_y="978" to_board="4"></action>
   <!-- Clue tokens moving to the appropriate spots on board -->
-  <action type="move_piece" x="392" y="671" board="0" to_x="35" to_y="228" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="395" to_y="30" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="598" to_y="30" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="473" to_y="128" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="896" to_y="397" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="784" to_y="397" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="561" to_y="501" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="472" to_y="501" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="342" to_y="501" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="309" to_y="403" to_board="0"></action>
-  <action type="move_piece" x="392" y="671" board="0" to_x="34" to_y="346" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="70" to_y="456" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="790" to_y="60" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="1196" to_y="60" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="946" to_y="256" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="1792" to_y="794" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="1568" to_y="794" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="1122" to_y="1002" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="944" to_y="1002" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="684" to_y="1002" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="618" to_y="806" to_board="0"></action>
+  <action type="move_piece" x="783" y="1341" board="0" to_x="68" to_y="692" to_board="0"></action>
 </moves>
