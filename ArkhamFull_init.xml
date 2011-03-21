@@ -18,10 +18,10 @@
   <action type="quad_tap_name" name="piece_my1"></action>
   <action type="quad_tap_name" name="piece_ao1"></action>
   <!-- Player Tokens moving to their boards -->
-  <action type="move_piece" x="919" y="1341" board="0" to_x="978" to_y="261" to_board="1"></action>
-  <action type="move_piece" x="919" y="1405" board="0" to_x="6" to_y="121" to_board="2"></action>
-  <action type="move_piece" x="919" y="1469" board="0" to_x="261" to_y="6" to_board="3"></action>
-  <action type="move_piece" x="783" y="1469" board="0" to_x="121" to_y="978" to_board="4"></action>
+  <action type="move_piece" x="919" y="1341" board="0" to_x="958" to_y="261" to_board="1"></action>
+  <action type="move_piece" x="919" y="1405" board="0" to_x="26" to_y="416" to_board="2"></action>
+  <action type="move_piece" x="919" y="1469" board="0" to_x="261" to_y="26" to_board="3"></action>
+  <action type="move_piece" x="783" y="1469" board="0" to_x="416" to_y="958" to_board="4"></action>
   <!-- Clue tokens moving to the appropriate spots on board -->
   <action type="move_piece" x="783" y="1341" board="0" to_x="70" to_y="456" to_board="0"></action>
   <action type="move_piece" x="783" y="1341" board="0" to_x="790" to_y="60" to_board="0"></action>
