@@ -1033,6 +1033,76 @@
     </location_type>
   </size>
   <!-- End Board monster stack locations -->
+  <!--Board portal out locations to investigator sheets-->
+  <size width="90" height="90">
+    <valid_types types="common,unique,spell,ally,skill,injury,madness,bankloan,blessing,curse,retainer,silvertwilight,deputy">
+      <location_in_action action="move_piece" args="location_player1_cardportal">
+        <corner_coord board="0" x="520" y="1342">
+          <location>location_main_investigator1cardportalout</location>
+        </corner_coord>
+      </location_in_action>
+      <location_in_action action="move_piece" args="location_player2_cardportal">
+        <corner_coord board="0" x="428" y="1342">
+          <location>location_main_investigator3cardportalout</location>
+        </corner_coord>
+      </location_in_action>
+      <location_in_action action="move_piece" args="location_player3_cardportal">
+        <corner_coord board="0" x="520" y="1434">
+          <location>location_main_investigator2cardportalout</location>
+        </corner_coord>
+      </location_in_action>
+      <location_in_action action="move_piece" args="location_player4_cardportal">
+        <corner_coord board="0" x="428" y="1434">
+          <location>location_main_investigator4cardportalout</location>
+        </corner_coord>
+      </location_in_action>
+    </valid_types>
+    <valid_types types="gate,monster,monsterspecial">
+      <location_in_action action="move_piece" args="location_player1_monstergateportal">
+        <corner_coord board="0" x="520" y="1342">
+          <location>location_main_investigator1monstergateportalout</location>
+        </corner_coord>
+      </location_in_action>
+      <location_in_action action="move_piece" args="location_player2_monstergateportal">
+        <corner_coord board="0" x="428" y="1342">
+          <location>location_main_investigator3monstergateportalout</location>
+        </corner_coord>
+      </location_in_action>
+      <location_in_action action="move_piece" args="location_player3_monstergateportal">
+        <corner_coord board="0" x="520" y="1434">
+          <location>location_main_investigator2monstergateportalout</location>
+        </corner_coord>
+      </location_in_action>
+      <location_in_action action="move_piece" args="location_player4_monstergateportal">
+        <corner_coord board="0" x="428" y="1434">
+          <location>location_main_investigator4monstergateportalout</location>
+        </corner_coord>
+      </location_in_action>
+    </valid_types>
+    <valid_types types="player,clue,sanity,stamina,money1,money5">
+      <location_in_action action="move_piece" args="location_player1_tokenportal">
+        <corner_coord board="0" x="520" y="1342">
+          <location>location_main_investigator1tokenportalout</location>
+        </corner_coord>
+      </location_in_action>
+      <location_in_action action="move_piece" args="location_player2_tokenportal">
+        <corner_coord board="0" x="428" y="1342">
+          <location>location_main_investigator3tokenportalout</location>
+        </corner_coord>
+      </location_in_action>
+      <location_in_action action="move_piece" args="location_player3_tokenportal">
+        <corner_coord board="0" x="520" y="1434">
+          <location>location_main_investigator2tokenportalout</location>
+        </corner_coord>
+      </location_in_action>
+      <location_in_action action="move_piece" args="location_player4_tokenportal">
+        <corner_coord board="0" x="428" y="1434">
+          <location>location_main_investigator4tokenportalout</location>
+        </corner_coord>
+      </location_in_action>
+    </valid_types>
+  </size>
+  <!-- End Board portal out locations to investigator sheets-->
   <!-- Board discard location -->
   <size width="154" height="154">
     <location_in_action action="set_side" args="0">
