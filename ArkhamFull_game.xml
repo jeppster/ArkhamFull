@@ -2920,10 +2920,10 @@
           <initial_rotation value="180">
             <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_bank_0_1">
               <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
-                <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_2">
+                <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_1_3">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_2">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -2957,11 +2957,11 @@
                 </double_tap>
               </double_tap>
             </double_tap>
-            <triple_tap action="move_piece" args="Mini2_4_2,ally3">
+            <triple_tap action="move_piece" args="Mini2_3_2,ally3">
               <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_river_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
@@ -3003,7 +3003,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3048,7 +3048,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_common,Mini2_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_common,Mini2_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3086,12 +3086,12 @@
                 </double_tap>
               </double_tap>
             </double_tap>
-            <triple_tap action="move_piece" args="Mini2_4_2,retainer1">
+            <triple_tap action="move_piece" args="Mini2_3_2,retainer1">
               <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_newspaper_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3131,13 +3131,13 @@
                 </double_tap>
               </double_tap>
             </triple_tap>
-            <triple_tap action="move_piece" args="Mini2_3_1,spell9">
+            <triple_tap action="move_piece" args="Mini2_2_1,spell9">
               <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_magic_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
-                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_3">
-                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_1_3">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_3">
+                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3170,11 +3170,11 @@
                 </double_tap>
               </double_tap>
             </triple_tap>
-            <triple_tap action="move_piece" args="Mini2_4_2,silvertwilight1">
+            <triple_tap action="move_piece" args="Mini2_3_2,silvertwilight1">
               <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_general_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3220,7 +3220,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3265,7 +3265,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3301,10 +3301,10 @@
             </double_tap>
             <triple_tap action="move_piece" args="Mini2_1_1,unique52">
               <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_curiosity_0_1">
-                <double_tap action="move_piece_at_location" args="location_main_common,Mini2_2_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_3">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3347,9 +3347,9 @@
             <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_train_0_1">
               <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_2">
-                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_1">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_1_3">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3385,10 +3385,10 @@
             </double_tap>
             <triple_tap action="move_piece" args="Mini2_1_1,unique38">
               <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_diner_0_1">
-                <double_tap action="move_piece_at_location" args="location_main_common,Mini2_2_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_3">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
@@ -3434,7 +3434,7 @@
               <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_police_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_3">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
@@ -3480,10 +3480,10 @@
             <double_tap action="move_piece_at_location" args="location_player_science_0_1,location_player2_clue1">
               <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_science_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
-                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_1">
-                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_2">
-                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_1_3">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
+                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_2">
+                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3525,8 +3525,8 @@
             <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_river_0_1">
               <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_2">
-                  <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
-                    <double_tap action="move_piece_at_location" args="location_main_ally,Mini2_4_2">
+                  <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
+                    <double_tap action="move_piece_at_location" args="location_main_ally,Mini2_3_2">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3565,7 +3565,7 @@
               <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
@@ -3611,7 +3611,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_boarding_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_2">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_3">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3657,7 +3657,7 @@
               <triple_tap action="move_piece" args="Mini2_1_2,common35">
                 <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_church_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
@@ -3704,7 +3704,7 @@
               <triple_tap action="move_piece" args="Mini2_1_2,common8">
                 <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_boarding_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                         <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3746,7 +3746,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_curiosity_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3784,12 +3784,12 @@
                 </double_tap>
               </triple_tap>
             </triple_tap>
-            <triple_tap action="move_piece" args="Mini2_4_2,retainer2">
+            <triple_tap action="move_piece" args="Mini2_3_2,retainer1a">
               <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_police_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_2">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3832,12 +3832,12 @@
               </double_tap>
             </triple_tap>
             <triple_tap action="move_piece" args="Mini2_1_1,common5">
-              <triple_tap action="move_piece" args="Mini2_2_1,unique44">
+              <triple_tap action="move_piece" args="Mini2_1_3,unique44">
                 <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_church_0_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
-                        <double_tap action="move_piece_at_location" args="location_main_blessing,Mini2_4_2">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
+                        <double_tap action="move_piece_at_location" args="location_main_blessing,Mini2_3_2">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3873,7 +3873,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini2_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini2_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player2_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3921,7 +3921,7 @@
                   <double_tap action="move_piece_at_location" args="location_main_pp2,location_player_train_0_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_1">
                       <double_tap action="move_piece_at_location" args="location_main_unique,Mini2_2_2">
-                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_4_1">
+                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini2_3_1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player2_sanity1">
@@ -3966,10 +3966,10 @@
           <initial_rotation value="-90">
             <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_bank_0_1">
               <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
-                <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_2">
+                <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_1_3">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_2">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4003,11 +4003,11 @@
                 </double_tap>
               </double_tap>
             </double_tap>
-            <triple_tap action="move_piece" args="Mini3_4_2,ally3">
+            <triple_tap action="move_piece" args="Mini3_3_2,ally3">
               <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_river_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
@@ -4049,7 +4049,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4094,7 +4094,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_common,Mini3_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_common,Mini3_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4132,12 +4132,12 @@
                 </double_tap>
               </double_tap>
             </double_tap>
-            <triple_tap action="move_piece" args="Mini3_4_2,retainer1">
+            <triple_tap action="move_piece" args="Mini3_3_2,retainer1">
               <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_newspaper_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4177,13 +4177,13 @@
                 </double_tap>
               </double_tap>
             </triple_tap>
-            <triple_tap action="move_piece" args="Mini3_3_1,spell9">
+            <triple_tap action="move_piece" args="Mini3_2_1,spell9">
               <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_magic_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
-                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_3">
-                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_1_3">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_3">
+                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4216,11 +4216,11 @@
                 </double_tap>
               </double_tap>
             </triple_tap>
-            <triple_tap action="move_piece" args="Mini3_4_2,silvertwilight1">
+            <triple_tap action="move_piece" args="Mini3_3_2,silvertwilight1">
               <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_general_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4266,7 +4266,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4311,7 +4311,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4347,10 +4347,10 @@
             </double_tap>
             <triple_tap action="move_piece" args="Mini3_1_1,unique52">
               <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_curiosity_0_1">
-                <double_tap action="move_piece_at_location" args="location_main_common,Mini3_2_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_3">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4393,9 +4393,9 @@
             <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_train_0_1">
               <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_2">
-                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_1">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_1_3">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4431,10 +4431,10 @@
             </double_tap>
             <triple_tap action="move_piece" args="Mini3_1_1,unique38">
               <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_diner_0_1">
-                <double_tap action="move_piece_at_location" args="location_main_common,Mini3_2_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_3">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
@@ -4480,7 +4480,7 @@
               <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_police_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_3">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
@@ -4526,10 +4526,10 @@
             <double_tap action="move_piece_at_location" args="location_player_science_0_1,location_player3_clue1">
               <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_science_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
-                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_1">
-                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_2">
-                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_1_3">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
+                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_2">
+                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4571,8 +4571,8 @@
             <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_river_0_1">
               <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_2">
-                  <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
-                    <double_tap action="move_piece_at_location" args="location_main_ally,Mini3_4_2">
+                  <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
+                    <double_tap action="move_piece_at_location" args="location_main_ally,Mini3_3_2">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4611,7 +4611,7 @@
               <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
@@ -4657,7 +4657,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_boarding_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_2">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_3">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4703,7 +4703,7 @@
               <triple_tap action="move_piece" args="Mini3_1_2,common35">
                 <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_church_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
@@ -4750,7 +4750,7 @@
               <triple_tap action="move_piece" args="Mini3_1_2,common8">
                 <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_boarding_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                         <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4792,7 +4792,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_curiosity_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4830,12 +4830,12 @@
                 </double_tap>
               </triple_tap>
             </triple_tap>
-            <triple_tap action="move_piece" args="Mini3_4_2,retainer2">
+            <triple_tap action="move_piece" args="Mini3_3_2,retainer1a">
               <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_police_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_2">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4878,12 +4878,12 @@
               </double_tap>
             </triple_tap>
             <triple_tap action="move_piece" args="Mini3_1_1,common5">
-              <triple_tap action="move_piece" args="Mini3_2_1,unique44">
+              <triple_tap action="move_piece" args="Mini3_1_3,unique44">
                 <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_church_0_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
-                        <double_tap action="move_piece_at_location" args="location_main_blessing,Mini3_4_2">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
+                        <double_tap action="move_piece_at_location" args="location_main_blessing,Mini3_3_2">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4919,7 +4919,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini3_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini3_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player3_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -4967,7 +4967,7 @@
                   <double_tap action="move_piece_at_location" args="location_main_pp3,location_player_train_0_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_1">
                       <double_tap action="move_piece_at_location" args="location_main_unique,Mini3_2_2">
-                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_4_1">
+                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini3_3_1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player3_sanity1">
@@ -5012,10 +5012,10 @@
           <initial_rotation value="90">
             <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_bank_0_1">
               <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
-                <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_2">
+                <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_1_3">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_2">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5049,11 +5049,11 @@
                 </double_tap>
               </double_tap>
             </double_tap>
-            <triple_tap action="move_piece" args="Mini4_4_2,ally3">
+            <triple_tap action="move_piece" args="Mini4_3_2,ally3">
               <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_river_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
@@ -5095,7 +5095,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5140,7 +5140,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_common,Mini4_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_common,Mini4_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5178,12 +5178,12 @@
                 </double_tap>
               </double_tap>
             </double_tap>
-            <triple_tap action="move_piece" args="Mini4_4_2,retainer1">
+            <triple_tap action="move_piece" args="Mini4_3_2,retainer1">
               <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_newspaper_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5223,13 +5223,13 @@
                 </double_tap>
               </double_tap>
             </triple_tap>
-            <triple_tap action="move_piece" args="Mini4_3_1,spell9">
+            <triple_tap action="move_piece" args="Mini4_2_1,spell9">
               <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_magic_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
-                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_3">
-                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_1_3">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_3">
+                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5262,11 +5262,11 @@
                 </double_tap>
               </double_tap>
             </triple_tap>
-            <triple_tap action="move_piece" args="Mini4_4_2,silvertwilight1">
+            <triple_tap action="move_piece" args="Mini4_3_2,silvertwilight1">
               <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_general_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5312,7 +5312,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5357,7 +5357,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5393,10 +5393,10 @@
             </double_tap>
             <triple_tap action="move_piece" args="Mini4_1_1,unique52">
               <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_curiosity_0_1">
-                <double_tap action="move_piece_at_location" args="location_main_common,Mini4_2_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_3">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5439,9 +5439,9 @@
             <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_train_0_1">
               <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_2">
-                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_1">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_1_3">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5477,10 +5477,10 @@
             </double_tap>
             <triple_tap action="move_piece" args="Mini4_1_1,unique38">
               <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_diner_0_1">
-                <double_tap action="move_piece_at_location" args="location_main_common,Mini4_2_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_3">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
@@ -5526,7 +5526,7 @@
               <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_police_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_3">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
@@ -5572,10 +5572,10 @@
             <double_tap action="move_piece_at_location" args="location_player_science_0_1,location_player4_clue1">
               <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_science_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
-                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_1">
-                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_2">
-                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                  <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_1_3">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
+                      <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_2">
+                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5617,8 +5617,8 @@
             <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_river_0_1">
               <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_2">
-                  <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
-                    <double_tap action="move_piece_at_location" args="location_main_ally,Mini4_4_2">
+                  <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
+                    <double_tap action="move_piece_at_location" args="location_main_ally,Mini4_3_2">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5657,7 +5657,7 @@
               <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
@@ -5703,7 +5703,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_boarding_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_2">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_3">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5749,7 +5749,7 @@
               <triple_tap action="move_piece" args="Mini4_1_2,common35">
                 <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_church_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
@@ -5796,7 +5796,7 @@
               <triple_tap action="move_piece" args="Mini4_1_2,common8">
                 <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_boarding_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
-                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                    <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                       <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                         <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5838,7 +5838,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_curiosity_0_1">
                   <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5876,12 +5876,12 @@
                 </double_tap>
               </triple_tap>
             </triple_tap>
-            <triple_tap action="move_piece" args="Mini4_4_2,retainer2">
+            <triple_tap action="move_piece" args="Mini4_3_2,retainer1a">
               <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_police_0_1">
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_1">
                   <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_2">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5924,12 +5924,12 @@
               </double_tap>
             </triple_tap>
             <triple_tap action="move_piece" args="Mini4_1_1,common5">
-              <triple_tap action="move_piece" args="Mini4_2_1,unique44">
+              <triple_tap action="move_piece" args="Mini4_1_3,unique44">
                 <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_church_0_1">
-                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_1">
-                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_3_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
-                        <double_tap action="move_piece_at_location" args="location_main_blessing,Mini4_4_2">
+                  <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
+                    <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_2">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
+                        <double_tap action="move_piece_at_location" args="location_main_blessing,Mini4_3_2">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -5965,7 +5965,7 @@
                 <double_tap action="move_piece_at_location" args="location_main_common,Mini4_1_2">
                   <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_1">
                     <double_tap action="move_piece_at_location" args="location_main_spell,Mini4_2_2">
-                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                      <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                         <double_tap action="move_piece_at_location" args="location_main_clue1,location_player4_clue1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
@@ -6013,7 +6013,7 @@
                   <double_tap action="move_piece_at_location" args="location_main_pp4,location_player_train_0_1">
                     <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_1">
                       <double_tap action="move_piece_at_location" args="location_main_unique,Mini4_2_2">
-                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_4_1">
+                        <double_tap action="move_piece_at_location" args="location_main_skill,Mini4_3_1">
                           <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                             <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
                               <double_tap action="move_piece_at_location" args="location_main_sanity1,location_player4_sanity1">
