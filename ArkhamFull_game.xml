@@ -1866,7 +1866,7 @@
   </single_tap>
   <!-- End Doom tokens -->
   <!-- All General shufflable pieces-->
-  <quad_tap action="send_to_back" args="">
+  <quad_tap action="shuffle_location" args="">
     <!-- Investigator Sheets -->
     <piece_type type="invest">
       <draggable value="0">
